@@ -39,3 +39,53 @@
 2. Now deploy.
     <br>
     <a href='https://dashboard.heroku.com/new?template=https://github.com/DeeCeeXxx/Queen_Anita-Md' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+
+## ```Connect With Me```<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
+ <br> 
+<p align="center">
+<a href="https://wa.me/2349066528353"><img src="https://img.shields.io/badge/Contact David-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z"><img src="https://img.shields.io/badge/Join Official Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://www.youtube.com/@HacktivistHive"><img src="https://img.shields.io/badge/Subscribe-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/@HacktivistHive" /><br>
+<p align="center">
+<img alt="Development" width="250" src="https://media2.giphy.com/media/W9tBvzTXkQopi/giphy.gif?cid=6c09b952xu6syi1fyqfyc04wcfk0qvqe8fd7sop136zxfjyn&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" /> </p>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+# 
+Gojou-MD is a easy to use WhatsApp bot. 
+
+      Gojou-MD whatsapp bot is an easy to use whatsapp robot.   |  Itachi Uchiha whatsapp bot
+# 
+# 
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+* [🧑‍💻 Follow Gojou-MD Whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z)
+
+* [🧑‍💻 Join Gojou-Md Group 🧑‍💻](https://t.me/hacktivisthive)
+
+* [✅ Join Public Group ⚡](https://chat.whatsapp.com/Hk4jZg8HMoH1auW2NAKazX)
+
+  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+      ⚠️ We are not responsible for any inconvenience caused by your mistakes!
+  
+## 
+
+- *Gojou-Md is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
+- *In that case, I'm not responsible for banning your account.*
+- *Use Gojou-Md at your own risk by keeping this warning in mind.*
+  
+  #### ```TOTAL PROFILE VIEWS 🧚```
+![Visitor Count](https://profile-counter.glitch.me/DeeCeeXxx/count.svg)
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+ ## [ WHATSAPP CHANNEL ](https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z) 
+
+## Support
+
+SUPPORT CHANNEL: <a href="https://whatsapp.com/channel/0029VafEBFX2Jl8DSYclsS08"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+
+
+### Please Give One Star ✨ & [follow me notify my updates 💗](https://github.com/DeeCeeXxx)
+<b>Version -> 1.0.0</b>
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
