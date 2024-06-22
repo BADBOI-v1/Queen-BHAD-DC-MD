@@ -29,7 +29,7 @@
 
 ### 2. GET SESSION ID HERE
 
-<a href='https://mainanita-session-5001fe956710.herokuapp.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+<a href='https://mainv2-f66485a0f702.herokuapp.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 ### DEPLOY TO HEROKU
 
