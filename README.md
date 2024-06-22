@@ -50,16 +50,16 @@
 <img alt="Development" width="250" src="https://media2.giphy.com/media/W9tBvzTXkQopi/giphy.gif?cid=6c09b952xu6syi1fyqfyc04wcfk0qvqe8fd7sop136zxfjyn&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" /> </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 # 
-Gojou-MD is a easy to use WhatsApp bot. 
+Queen_Anita-V2 is a easy to use WhatsApp bot. 
 
-      Gojou-MD whatsapp bot is an easy to use whatsapp robot.   |  Itachi Uchiha whatsapp bot
+      Queen_Anita-V2 whatsapp bot is an easy to use whatsapp robot.   |  Itachi Uchiha whatsapp bot
 # 
 # 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-* [🧑‍💻 Follow Gojou-MD Whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z)
+* [🧑‍💻 Follow Queen_Anita-V2 Whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z)
 
-* [🧑‍💻 Join Gojou-Md Group 🧑‍💻](https://t.me/hacktivisthive)
+* [🧑‍💻 Join Queen_Anita-V2 Group 🧑‍💻](https://t.me/hacktivisthive)
 
 * [✅ Join Public Group ⚡](https://chat.whatsapp.com/Hk4jZg8HMoH1auW2NAKazX)
 
@@ -69,9 +69,9 @@ Gojou-MD is a easy to use WhatsApp bot.
   
 ## 
 
-- *Gojou-Md is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
+- *Queen_Anita-V2 is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
 - *In that case, I'm not responsible for banning your account.*
-- *Use Gojou-Md at your own risk by keeping this warning in mind.*
+- *Use Queen_Anita-V2 at your own risk by keeping this warning in mind.*
   
   #### ```TOTAL PROFILE VIEWS 🧚```
 ![Visitor Count](https://profile-counter.glitch.me/DeeCeeXxx/count.svg)
