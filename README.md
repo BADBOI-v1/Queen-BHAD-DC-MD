@@ -38,7 +38,7 @@
     <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 2. Now deploy.
     <br>
-    <a href='https://dashboard.heroku.com/new?template=https://github.com/DeeCeeXxx/Queen_Anita-Md' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+    <a href='https://dashboard.heroku.com/new?template=https://github.com/DeeCeeXxx/Queen_Anita-V2' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 ## ```Connect With Me```<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
  <br> 
