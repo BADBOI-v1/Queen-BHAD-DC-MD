@@ -42,7 +42,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":" DONT EDIT THIS, SKIP IT  .",
-      "value":"https://telegra.ph/file/903023544023284537f89.jpg,https://telegra.ph/file/f177826fa37ae7df4cc3c.jpg,https://telegra.ph/file/fc93147ff90768ff55f96.jpg,https://telegra.ph/file/fa5bc00ce9b225340e2ce.jpg,https://telegra.ph/file/b45eca3c83497c8365fc8.jpg,https://telegra.ph/file/4fd9ffdf843ae4147ddd4.jpg,https://telegra.ph/file/b2b2008007c558204e8b8.mp4",
+      "value":"https://telegra.ph/file/7275967ae7b5283fada69.jpg,https://telegra.ph/file/c3049cd3ac77f371e119e.jpg,https://telegra.ph/file/a22200a780671e0e32383.jpg,https://telegra.ph/file/85fe388fdd14930cf86a0.jpg,https://telegra.ph/file/ba9ced500f9eca7db8acb.mp4 ",
       "required":false
        
      },
@@ -64,7 +64,7 @@
 	  ,
     "SESSION_ID":
     {
-      "description":"put your session ID , the code you receive after scanning Qr code",   
+      "description":"put your session ID , the code you receive after scanning Qr code or Pair Code",   
       "value":"",
       "required":true
       
@@ -120,3 +120,4 @@
     }
   ]
 }
+ 
