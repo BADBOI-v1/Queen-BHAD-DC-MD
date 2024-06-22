@@ -673,7 +673,7 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         ppgroup = await zk.profilePictureUrl(group.id, 'image');
     } catch {
-        ppgroup = 'https://telegra.ph/file/f177826fa37ae7df4cc3c.jpg';
+        ppgroup = 'https://telegra.ph/file/85fe388fdd14930cf86a0.jpg';
     }
 
     try {
@@ -871,14 +871,15 @@ ${metadata.desc}`;
 ║    Mode :${md}
 ║    Total Commands : ${evt.cm.length}︎
 ╰═════════════════⊷
-            *POWERED BY QUEEN_ANITA-V2
+    *POWERED BY QUEEN_ANITA-V2
 ╭───◇
 ┃ 
 ┃
 ┃ *Thank you 4 choosing QUEEN_ANITA*
 ┃
 ┃
-┃ Join The Official Whatsapphttps://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z
+┃ Join The Official Whatsapp
+https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z
 ╰═════════════════⊷`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
