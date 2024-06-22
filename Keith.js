@@ -6,7 +6,7 @@ zokou({ nomCom: "Keitharsenal", reaction: "📷", nomFichier: __filename }, asyn
     let z = 'QUEEN_ANITA-V2 \n\n ' + "*David Cyril.*";
     let d = ' #David'S';
     let varmess = z + d;
-    var img = 'https://telegra.ph/file/903023544023284537f89.jpg';
+    var img = 'https://telegra.ph/file/c3049cd3ac77f371e119e.jpg';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
     //console.log("montest")
 });
