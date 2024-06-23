@@ -865,7 +865,7 @@ ${metadata.desc}`;
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `╭════⊷
-║ *『𝐀𝐋𝐏𝐇𝐀-𝐌𝐃 𝐢𝐬 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝』*
+║ *『QUEEN_ANITA-V2 CONNECTED』*
 ║    Creator: DAVID CYRIL
 ║    Prefix : [ ${prefixe} ]
 ║    Mode :${md}
