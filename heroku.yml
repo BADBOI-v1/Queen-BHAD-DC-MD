@@ -1,5 +1,0 @@
-build:
-  docker:
-      worker: Dockerfile
-run:
-   worker:   npm run Queen_Anita-V2
