@@ -8,7 +8,7 @@
 <img src="https://telegra.ph/file/a22200a780671e0e32383.jpg"/> 
 <p align="center"><img src="https://profile-counter.glitch.me/{DeeCeeXxx}/count.svg" alt="DeeCeeXxx :: Visitor's Count" /></p>
 <p align="center">
-<a href="https://github.com/DGXeon/followers"><img title="Followers" src="https://img.shields.io/github/followers/DeeCeeXxx?color=red&style=flat-square"></a>
+<a href="https://github.com/DeeCeeXxx/followers"><img title="Followers" src="https://img.shields.io/github/followers/DeeCeeXxx?color=red&style=flat-square"></a>
 <a href="https://github.com/DeeCeeXxx/Queen_Anita-V2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/DeeCeeXxx/Queen_Anita-V2?color=blue&style=flat-square"></a>
 <a href="https://github.com/DeeCeeXxx/Queen_Anita-V2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/DeeCeeXxx/Queen_Anita-V2?color=red&style=flat-square"></a>
 <a href="https://github.com/DeeCeeXxx/Queen_Anita-Md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/DeeCeeXxx/Queen_Anita-V2?label=Watchers&color=blue&style=flat-square"></a>
@@ -33,10 +33,7 @@
 
 ### DEPLOY ON CLEVER CLOUD
 
-1. If you don't have an account in Clever Cloud, create one.
-    <br>
-    <a href='https://api.clever-cloud.com/v2/sessions/signup?subscription_source=cta-home-signup' target="_blank"><img alt='Cloud' src='https://img.shields.io/badge/-Create-orange?style=for-the-badge&logo=clever-cloud&logoColor=white'/></a>
-2. Now deploy.
+1. If you don't have an account in Clever Cloud, create one and deploy.
     <br>
     <a href='https://console.clever-cloud.com/users/me/applications/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=clever-cloud&logoColor=white'/></a>
 
