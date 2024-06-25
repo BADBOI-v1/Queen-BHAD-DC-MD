@@ -5,9 +5,9 @@
     "main": "index.js",
     "type": "commonjs",
     "scripts": {
-        "run": "pm2 start . --deep-monitoring --attach --name Asta_0.1 || node .",
-        "start": "pm2 start . --attach --name Asta_0.1",
-        "stop": "pm2 stop Asta_0.1"
+        "run": "pm2 start . --deep-monitoring --attach --name QUEEN_ANITA-V2 || node .",
+        "start": "pm2 start . --attach --name QUEEN_ANITA-V2",
+        "stop": "pm2 stop QUEEN_ANITA-V2"
     },
     "author": "QUEEN_ANITA-V2",
     "dependencies": {
