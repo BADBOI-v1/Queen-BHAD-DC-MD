@@ -39,6 +39,7 @@
 2. Now deploy.
     <br>
     <a href='https://console.clever-cloud.com/users/me/applications/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=clever-cloud&logoColor=white'/></a>
+    <b>
 `RENDER PROCESS:
     1: Click "NEW".
     2: Select "Web Service".
