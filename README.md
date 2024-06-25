@@ -39,15 +39,12 @@
 2. Now deploy.
     <br>
     <a href='https://console.clever-cloud.com/users/me/applications/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=clever-cloud&logoColor=white'/></a>
-
-    ```
-RENDER PROCESS:
+`RENDER PROCESS:
     1: Click "NEW".
     2: Select "Web Service".
     3: Click "Build and deploy from a Git repository".
     4: Now Choose this forked git repo from list.
-    5: And JUST CLICK "Connect". 
-```
+    5: And JUST CLICK "Connect".`
 
 ### DEPLOY ON HEROKU
 
