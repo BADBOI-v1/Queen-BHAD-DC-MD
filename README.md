@@ -1,4 +1,4 @@
- # QUEEN_ANITA-V2
+No # QUEEN_ANITA-V2
    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
 <p align="center">
@@ -39,6 +39,14 @@
 2. Now deploy.
     <br>
     <a href='https://console.clever-cloud.com/users/me/applications/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=clever-cloud&logoColor=white'/></a>
+    ```
+RENDER PROCESS:
+    1: Click "NEW".
+    2: Select "Web Service".
+    3: Click "Build and deploy from a Git repository".
+    4: Now Choose this forked git repo from list.
+    5: And JUST CLICK "Connect". 
+```
 ### DEPLOY ON HEROKU
 
 1. If you don't have an account in Heroku, create one.
@@ -68,7 +76,7 @@
 # 
 Queen_Anita-V2 is a easy to use WhatsApp bot. 
 
-- Termux
+### Termux Setup
 ```js
 termux-setup-storage
 ```
