@@ -60,9 +60,58 @@
 # 
 Queen_Anita-V2 is a easy to use WhatsApp bot. 
 
-      Queen_Anita-V2 whatsapp bot is an easy to use whatsapp robot.   |  Itachi Uchiha whatsapp bot
-# 
-# 
+- Termux
+```js
+termux-setup-storage
+```
+```
+apt update
+```
+```
+apt upgrade
+```
+```
+pkg update && pkg upgrade
+```
+```
+pkg install bash
+```
+```
+pkg install libwebp
+```
+```
+pkg install git -y
+```
+```
+pkg install nodejs -y
+```
+```
+pkg install ffmpeg -y 
+```
+```
+pkg install wget
+```
+```
+pkg install imagemagick -y
+```
+```
+git clone https://github.com/Kai0071/A17
+```
+```
+cd Queen_Anita-V2
+```
+```
+npm i
+```
+```
+npm start
+```
+
+- Command For 24/7
+```js
+npm i -g forever && forever index.js && forever save && forever logs
+```
+<br>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 * [🧑‍💻 Follow Queen_Anita-V2 Whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z)
