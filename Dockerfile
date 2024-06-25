@@ -1,7 +1,7 @@
-FROM node:16
+FROM node:lts-buster
 RUN git clone https://github.com/DeeCeeXxx/QUEEN_ANITA-V2 /root/DeeCeeXxx
 WORKDIR /root/DeeCeeXxx
 RUN npm install
-EXPOSE 3000
+EXPOSE 5000
 CMD ["npm","start" ] 
 #ASTA
