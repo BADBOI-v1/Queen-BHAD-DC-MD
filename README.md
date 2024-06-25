@@ -39,8 +39,8 @@
 2. Now deploy.
     <br>
     <a href='https://dashboard.heroku.com/new?template=https://github.com/DeeCeeXxx/Queen_Anita-V2' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
-    ### DEPLOY TO REPLIT
-1. Now deploy.
+### DEPLOY TO REPLIT
+1. Deploy.
     <br>
     <a href="(https://replit.com/github/DeeCeeXxx/Queen_Anita-V2"><img title="Deploy" src="https://img.shields.io/badge/REPLIT-h?color=red&style=for-the-badge&logo=msi"></a>
 
