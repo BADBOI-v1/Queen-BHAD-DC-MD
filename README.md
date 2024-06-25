@@ -151,5 +151,33 @@ SUPPORT CHANNEL: <a href="https://whatsapp.com/channel/0029VafEBFX2Jl8DSYclsS08"
 
 ### Please Give One Star ✨ & [follow me notify my updates 💗](https://github.com/DeeCeeXxx)
 <b>Version -> 1.0.0</b>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Badge</title>
+    <style>
+        .badge {
+            display: inline-block;
+            background-color: #0088cc;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .badge:hover {
+            background-color: #007bb5;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://t.me/deecee_x" class="badge">TELEGRAM</a>
+</body>
+</html>
+
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
