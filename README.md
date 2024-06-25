@@ -95,7 +95,7 @@ pkg install wget
 pkg install imagemagick -y
 ```
 ```
-git clone https://github.com/Kai0071/A17
+git clone https://github.com/DeeCeeXxx/Queen_Anita-V2
 ```
 ```
 cd Queen_Anita-V2
