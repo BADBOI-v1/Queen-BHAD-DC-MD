@@ -35,7 +35,7 @@
 
 1. If you don't have an account in Clever Cloud, create one and deploy.
     <br>
-    <a href='https://console.clever-cloud.com/users/me/applications/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=clever-cloud&logoColor=white'/></a>
+    <a href='https://api.clever-cloud.com/v2/sessions/signup?subscription_source=cta-home-signup' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=clever-cloud&logoColor=white'/></a>
 
 ### DEPLOY ON HEROKU
 
