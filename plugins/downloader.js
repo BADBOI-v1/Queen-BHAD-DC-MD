@@ -760,7 +760,7 @@ smd({
     }
     let _0x3b2ca6 = await yts(_0x4ec99f);
     let _0x4123ae = _0x3b2ca6.all[0];
-    let _0x5883a9 = "\t *ᴀꜱᴛᴀ-ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*   \n\n*Title :* " + _0x4123ae.title + "\nUrl : " + _0x4123ae.url + "\n*Description :* " + _0x4123ae.timestamp + "\n*Views :* " + _0x4123ae.views + "\n*Uploaded :* " + _0x4123ae.ago + "\n*Author :* " + _0x4123ae.author.name + "\n\n\n_Reply 1 To Video_ Or _1 document_\n_Reply 2 To Audio_ Or _2 document_";
+    let _0x5883a9 = "\t *QUEEN_ANITA-V2 • SONG DOWNLOADER*   \n\n*Title :* " + _0x4123ae.title + "\nUrl : " + _0x4123ae.url + "\n*Description :* " + _0x4123ae.timestamp + "\n*Views :* " + _0x4123ae.views + "\n*Uploaded :* " + _0x4123ae.ago + "\n*Author :* " + _0x4123ae.author.name + "\n\n\n_Reply 1 To Video_ Or _1 document_\n_Reply 2 To Audio_ Or _2 document_";
     let _0x3885cc = await smdBuffer(_0x4123ae.thumbnail);
     var _0x44a363 = {
       ...(await _0x2c2023.bot.contextInfo(Config.botname, "ʏᴏᴜᴛᴜʙᴇ ꜱᴏɴɢ", _0x3885cc))
@@ -787,7 +787,7 @@ cmd({
       return await _0x1c8285.reply("*_Give Me Search Query!_*");
     }
     let _0x2878ec = await yts(_0xca939c);
-    let _0x4186e4 = "*ᴀꜱᴛᴀ-ᴍᴅ • ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ* \n*_______________________________* \n\n_Reply Any Number To Download._\n  _For Audio: 1 mp3._\n  _For Video: 1 video._\n  _For document: 1 document._\n\n_Results For : " + _0xca939c + "_ \n\n";
+    let _0x4186e4 = "*QUEEN_ANITA-V2 • SONG DOWNLOADER* \n*_______________________________* \n\n_Reply Any Number To Download._\n  _For Audio: 1 mp3._\n  _For Video: 1 video._\n  _For document: 1 document._\n\n_Results For : " + _0xca939c + "_ \n\n";
     let _0x463366 = 1;
     for (let _0x308e22 of _0x2878ec.all) {
       _0x4186e4 += " \n*" + _0x463366++ + " : " + _0x308e22.title + (_0x308e22.timestamp ? "(" + _0x308e22.timestamp + ")" : "") + "*\n*Url : " + _0x308e22.url + "*";
@@ -1026,7 +1026,7 @@ cmd({
 }) => {
   if (_0xb75e78.quoted && _0xb75e78.text) {
     const _0x5b8ee5 = _0xb75e78.quoted.text.split("\n");
-    if (_0x5b8ee5[0].includes("ᴀꜱᴛᴀ-ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ")) {
+    if (_0x5b8ee5[0].includes("QUEEN_ANITA-V2 • SONG DOWNLOADER")) {
       const _0x1724ba = _0x5b8ee5.find(_0x525632 => _0x525632.startsWith("Url :"));
       let _0x43a95e = _0x1724ba.replace("Url :", "").trim();
       try {
@@ -1079,7 +1079,7 @@ cmd({
       } catch (_0x189dd8) {
         return await _0xb75e78.reply("Error While Downloading Video : " + _0x189dd8);
       }
-    } else if (_0x5b8ee5[0].includes("ᴀꜱᴛᴀ-ᴍᴅ • ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ")) {
+    } else if (_0x5b8ee5[0].includes("QUEEN_ANITA-V2 • SONG DOWNLOADER")) {
       let _0x307bb6 = "*" + _0xb75e78.text.split(" ")[0] + " : ";
       const _0x56275d = _0x5b8ee5.find(_0x3b5e74 => _0x3b5e74.startsWith(_0x307bb6));
       if (_0x56275d) {
@@ -1119,7 +1119,7 @@ cmd({
           _0xb75e78.error(_0x3de0e2 + "\n\nCommand yts Listener", _0x3de0e2, "*Video Not Found!*");
         }
       }
-    } else if (_0x5b8ee5[0].includes("ᴀꜱᴛᴀ-ᴍᴅ • ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪsᴛ")) {
+    } else if (_0x5b8ee5[0].includes("QUEEN_ANITA-V2 • SONG DOWNLOADER")) {
       let _0x35d668 = "*" + _0xb75e78.text.split(" ")[0] + " : ";
       const _0x205a5f = _0x5b8ee5.find(_0x304058 => _0x304058.startsWith(_0x35d668));
       if (_0x205a5f) {
