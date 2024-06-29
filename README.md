@@ -31,7 +31,7 @@
 
 <a href='https://mainv2-f66485a0f702.herokuapp.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
-### DEPLOY ON SCALINGO (recommended) 
+### DEPLOY ON SCALINGO
 
 1. If you don't have an account in Scalingo, create one and deploy.
     <br>
