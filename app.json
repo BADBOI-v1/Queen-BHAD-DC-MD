@@ -10,14 +10,14 @@
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
       "value": "",
-      "required": true
+      "required": false 
     },
     "HEROKU_APP_NAME": {
       "description": "Put Your Heroku App Name Here",
       "value": "",
-      "required": true
+      "required": false 
     },
-    "SESSION_ID": {
+    "SESSION_ID":eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0E1QzdOaC94azBoUXprUG5RSDBXcmRwY0tkcWI3UDk1dENpSWZaOHVWND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidDBnbW56Zkp6ckpzcHV3OWdRL2cyTFIySkxaYXFmS0xQMFI1MWVKVmhIST0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzTDRGTnhqVWhWL3VKSmdtVVlZQ3RRRjd1ZFN3dkdERFFLaUIzTjk4UkhZPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJHbC82NVlpekJwQTVRaXdJYSs4OUorcVdYTWluV1VvQlY2VEJEYXdjc0FBPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InlGdjU4Vms5Wm9zeENrclcrclNUcGJFTlFKZEFzVFcyd2xCS3JSQkpwVUk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFkMFozbFh1anltZTU0ZDhrd215OHJXcEF4d2YwWXV3VVN1V2E0L3JWeTg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib0xFWCtkMEp2MUdsSUhYbDcwNkhIOVd6MjFoY2pyN2dDREk5NzZsV0oxbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRFZDTzJ2d1FrdUlXZ1hpbERtQjR4TlZINGh5T2FLNExldnp4NCtmMmtIdz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InhrOFJwLzUwTkJUQ0plcitvT00vNTFoM3cxYi83ZjhWV1lzTmJOVFpncDdPd3E1emhQSGl1M1BKcnRlZDVwekxBeXp3cjlsektJWmJ6OXRiVHVWd0JnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTk2LCJhZHZTZWNyZXRLZXkiOiJtYmthK2d5dkNWNXpMakM1YnZjRW9IMnF2alNMZEtYMk1vd0l5TmwxR1RrPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjIzNDgwMjA1Mzg2NTZAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiNzU1RUIzQkMwOEUwRkQ0N0Y1MDhCNTFEMUQ0NURGRDIifSwibWVzc2FnZVRpbWVzdGFtcCI6MTcxOTYxMjYyNH1dLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MSwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoic3dyYkV6ZEJUSGFtYTdUYjh0d2RwdyIsInBob25lSWQiOiIxOGYxNDAxMy0wOTdjLTQ0M2MtYTBjNS1iMTA4NzNjOTRhNGEiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiV05lbmpvSGZtTDgyTERQY014a2V1SWNhUCtnPSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjlsNFltM2JNOUVOcEl5NFhyNjR3NzE3VDZQST0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiJOQlBNMVJNSiIsIm1lIjp7ImlkIjoiMjM0ODAyMDUzODY1NjoxN0BzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiLwn6ShSsO4S8OrcvCfpKEifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0p1djlDRVF2K244c3dZWUFTQUFLQUE9IiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IjZoc0prcGFkMmovL3k2Y2h6RmYra1kwMDdTTUNQSnpwQ2xlZUJFZC9QSHM9IiwiYWNjb3VudFNpZ25hdHVyZSI6ImpiblhPakM2NEZHQllRckJXekdHb0ZWZmxycW1TblVaaU1aNkc1NlJFM1ZhQlJtLytpQzJXQzB0NUM1bEpVeWErZkx5aFJxdUJoTzByN1hLOG9Gd0NRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJWRENsSFE3TlZ5bXBlenhtbTEvOXlCYUkyQnFTNTBLVncrV1BReHRySEFGdmFIdm9vNUJ0VFh2c3ExMy9rbTk1aGY3UzV2MkFtRTFldXByYlZuYXVDdz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzNDgwMjA1Mzg2NTY6MTdAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCZW9iQ1pLV25kby8vOHVuSWN4WC9wR05OTzBqQWp5YzZRcFhuZ1JIZnp4NyJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcxOTYxMjYxOSwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFET2YifQ==
         "description": "put your SESSION_ID here.",
         "value": ""
       },
@@ -26,7 +26,7 @@
       "required": false,
       "value": "online"
     },
-    "OWNER_NAME": {
+    "OWNER_NAME": {Joker 
       "description": "Owner Name",
       "value": "David Cyril",
       "required": true
@@ -98,13 +98,13 @@
       "value": "false",
       "required": false
     },
-    "PREFIX": {
+    "PREFIX": {.
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
       "value": ""
     },
-    "OWNER_NUMBER": {
+    "OWNER_NUMBER": {2348020538656
       "description": "Owner number or sudo",
-      "value": "2349066528353,2347043759577"
+      "value": "2348020538656,2347043759577"
     },
     "OPENAI_API_KEY": {
       "description": "put your OPENAI api key here.Get it from beta.openai.com ",
