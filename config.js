@@ -12,14 +12,14 @@ global.sudo = process.env.SUDO
   : "null";
 global.owner = process.env.OWNER_NUMBER
   ? process.env.OWNER_NUMBER.replace(/[\s+]/g, "")
-  : "2349066528353";
+  : "919614477116";
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
-  "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg,https://telegra.ph/file/7275967ae7b5283fada69.jpg";
+  "https://telegra.ph/file/0a929398e3ec62cf950f2.jpg,https://telegra.ph/file/81dd359293ed9af621614.jpg";
 global.userImages =
   process.env.USER_IMAGES ||
-  "https://telegra.ph/file/7275967ae7b5283fada69.jpg,https://telegra.ph/file/c3049cd3ac77f371e119e.jpg,https://telegra.ph/file/a22200a780671e0e32383.jpg,https://telegra.ph/file/85fe388fdd14930cf86a0.jpg,https://telegra.ph/file/ba9ced500f9eca7db8acb.mp4";
+  "hhttps://telegra.ph/file/0a929398e3ec62cf950f2.jpg,https://telegra.ph/file/81dd359293ed9af621614.jp,https://telegra.ph/file/a22200a780671e0e32383.jpg,https://telegra.ph/file/85fe388fdd14930cf86a0.jpg,https://telegra.ph/file/ba9ced500f9eca7db8acb.mp4";
 ///===========[global iMPORTS]====================//
 
 module.exports = {
@@ -27,11 +27,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`©QUEEN_ANITA-V2`",
-  author: process.env.PACK_AUTHER || "QUEEN_ANITA-V2",
-  packname: process.env.PACK_NAME || "A N I T A",
-  botname: process.env.BOT_NAME || "QUEEN_ANITA-V2",
-  ownername: process.env.OWNER_NAME || "David Cyril",
+  caption: process.env.CAPTION || "`©𝐒𝐔𝐁𝐀𝐑𝐔_-V2`",
+  author: process.env.PACK_AUTHER || "𝐒𝐔𝐁𝐀𝐑𝐔",
+  packname: process.env.PACK_NAME || "ＣＡＮ Ｉ ＰＲＥＳＳ ＹＯＵＲ ☺🦋 ㅤㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤ 🍏ＵＷＵ🐹ㅤㅤㅤㅤㅤㅤㅤ ㅤ ཫ꙳✱( ₊₉₁ ₉₆₁₄₄ ₇₇₁₁₆ )✱꙳ཀㅤㅤㅤㅤ🇮🇳🇮🇳ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ✫☼☾☁ⳜꓴƁ𐤠Ɽꓴ☁☾☼✫",
+  botname: process.env.BOT_NAME || "𝙈𝙔 𝘾𝙃𝙊𝘾𝙊𝙇𝘼𝙏𝙀",
+  ownername: process.env.OWNER_NAME || "✮͢⚡⃟≛⃝🇸𝖚𝖇𝖆𝖗𝖚≛⃝🍁⑉៚",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -47,25 +47,25 @@ module.exports = {
 };
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "";
-global.location = "";
+global.email = "animetoxic723@gmail.com";
+global.location = "kolkata";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "India/kolkata";
 global.github = process.env.GITHUB || "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2";
 global.gurl = process.env.GURL || "";
 global.website = process.env.GURL || "";
-global.devs = "2349066528353";
+global.devs = "919614477116";
 global.msg_style = process.env.STYLE || "4";
 global.session_reset = process.env.SS_RESET || "false";
-global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.gdbye = process.env.GOODBYE || "true";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 (global.disablegroup = process.env.DISABLE_GROUPS || "false"),
   (global.MsgsInLog = process.env.MSGS_IN_LOG || "true");
 global.waPresence = process.env.WAPRESENCE || "online";
-global.readcmds = process.env.READ_COMMAND || "false";
+global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
