@@ -336,7 +336,7 @@ smd({
     try {
       await _0xa1cfa2.send(_0x3dabe8, {
         packname: Config.packname,
-        author: "𝐖𝐀𝐒𝐈-𝐌𝐃"
+        author: "QUEEN_ANITA-V2"
       }, "sticker");
     } catch (_0x5763ea) {
       console.log("error in quotely : ", _0x5763ea);
@@ -356,11 +356,11 @@ smd({
   pattern: "fancy",
   desc: "Makes stylish/fancy given text",
   category: "converter",
-  use: "56 WASI MD V2",
+  use: "56 QUEEN_ANITA-V2",
   filename: __filename
 }, async (_0x230c03, _0x3b568a) => {
   try {
-    let _0x365550 = "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*𝐖𝐀𝐒𝐈-𝐌𝐃-𝐅𝐀𝐍𝐂𝐘-𝐓𝐄𝐗𝐓💬* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " + (_0x3b568a ? "```🔢Reply the number you wants to select``` \n\n" : "```\t\t" + prefix + "fancy Asta(For all text)\n\t\t" + prefix + "fancy 25 Asta(For specific text)```\n\n");
+    let _0x365550 = "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*𝐅𝐀𝐍𝐂𝐘-𝐓𝐄𝐗𝐓💬* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " + (_0x3b568a ? "```🔢Reply the number you wants to select``` \n\n" : "```\t\t" + prefix + "fancy Asta(For all text)\n\t\t" + prefix + "fancy 25 Asta(For specific text)```\n\n");
     let _0x50c7d9 = parseInt(_0x3b568a);
     if (isNaN(_0x50c7d9)) {
       let _0x4ca942 = _0x3b568a ? _0x3b568a : "Wasi";
@@ -410,7 +410,7 @@ smd({
   try {
     let _0xd51ec = _0x4cb7aa ? _0x4cb7aa : _0x4cfc4e.reply_text;
     if (!_0xd51ec) {
-      return _0x4cfc4e.reply("*_Example : " + prefix + "fliptext Asta MD!_*");
+      return _0x4cfc4e.reply("*_Example : " + prefix + "fliptext Queen_Anita-V2!_*");
     }
     let _0x5c7a34 = _0xd51ec.split("").reverse().join("");
     await _0x4cfc4e.reply("*「  Text Flipper Tool  」* \n*IGiven text :*\n" + _0xd51ec + "\n\n*Fliped text :*\n" + _0x5c7a34);
@@ -693,7 +693,7 @@ smd({
         return _0x3dac0f = false;
       });
     } else {
-      return _0x54e3dc.reply("*_Uhh Dear, provide text, ex .ttp 4 hii im asta!!_*");
+      return _0x54e3dc.reply("*_Uhh Dear, provide text, ex .ttp 4 hii im anita!!_*");
     }
   } catch (_0x72e5d) {
     return await _0x54e3dc.error(_0x72e5d + "\n\ncmdName: ttp\n");
