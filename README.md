@@ -96,7 +96,7 @@
 
 <a href="https://github.com/astrofx"><img src="https://github.com/astrofx.png?size=100" width="130" height="100"></a> | [<img src="https://github.com/Itxxwasi.png?size=100" width="100" height="100">](https://github.com/Itxxwasi) 
 ---|---
-[Wasi](https://github.com/Itxxwasi)  | [RUSHMASTER](https://github.com/astrofx)
+[Wasi](https://github.com/Itxxwasi)  | [Wasi](https://github.com/astrofx)
 Bug Fixer & Help | Plugins |
 
 
