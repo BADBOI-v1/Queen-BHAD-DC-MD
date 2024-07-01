@@ -94,10 +94,10 @@
 
 ## HELPERS
 
-<a href="https://github.com/chhaseeb47"><img src="https://github.com/chhaseeb47.png?size=100" width="130" height="100"></a> | [<img src="https://github.com/Rushmaster12.png?size=100" width="100" height="100">](https://github.com/Rushmaster12) 
+<a href="https://github.com/astrofx"><img src="https://github.com/astrofx.png?size=100" width="130" height="100"></a> | [<img src="https://github.com/Itxxwasi.png?size=100" width="100" height="100">](https://github.com/Itxxwasi) 
 ---|---
-[CH HASEEB](https://github.com/Ajmal-Achu)  | [RUSHMASTER](https://github.com/Rushmaster12)
-Promotion | Groups Management|
+[Wasi](https://github.com/Itxxwasi)  | [RUSHMASTER](https://github.com/astrofx)
+Bug Fixer & Help | Plugins |
 
 
 - *Queen_Anita-V2 is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
