@@ -91,14 +91,7 @@
 * [✅ Join Public Group ⚡](https://chat.whatsapp.com/Hk4jZg8HMoH1auW2NAKazX)
 
   <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-## HELPERS
-
-<a href="https://github.com/astrofx0011"><img src="https://github.com/astrofx0011.png?size=100" width="130" height="100"></a> | [<img src="https://github.com/Itxxwasi.png?size=100" width="100" height="100">](https://github.com/Itxxwasi) 
----|---
-[Astrofx](https://github.com/astrofx0011)  | [Wasi](https://github.com/itxxwasi)
-Plugins | Bug Fixer & Help |
-
+  
 
 - *Queen_Anita-V2 is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
 - *In that case, I'm not responsible for banning your account.*
@@ -110,6 +103,13 @@ Plugins | Bug Fixer & Help |
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
  ## [ WHATSAPP CHANNEL ](https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z) 
+ 
+## HELPERS
+
+<a href="https://github.com/astrofx0011"><img src="https://github.com/astrofx0011.png?size=100" width="130" height="100"></a> | [<img src="https://github.com/Itxxwasi.png?size=100" width="100" height="100">](https://github.com/Itxxwasi) 
+---|---
+[Astrofx](https://github.com/astrofx0011)  | [Wasi](https://github.com/itxxwasi)
+Plugins | Bug Fixer & Help |
 
 ## Support
 
