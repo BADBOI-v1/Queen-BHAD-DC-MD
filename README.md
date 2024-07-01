@@ -80,59 +80,7 @@
 <img alt="Development" width="250" src="https://media2.giphy.com/media/W9tBvzTXkQopi/giphy.gif?cid=6c09b952xu6syi1fyqfyc04wcfk0qvqe8fd7sop136zxfjyn&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" /> </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 # 
-Queen_Anita-V2 is a easy to use WhatsApp bot. 
 
-### Termux Setup
-```js
-termux-setup-storage
-```
-```
-apt update
-```
-```
-apt upgrade
-```
-```
-pkg update && pkg upgrade
-```
-```
-pkg install bash
-```
-```
-pkg install libwebp
-```
-```
-pkg install git -y
-```
-```
-pkg install nodejs -y
-```
-```
-pkg install ffmpeg -y 
-```
-```
-pkg install wget
-```
-```
-pkg install imagemagick -y
-```
-```
-git clone https://github.com/DeeCeeXxx/Queen_Anita-V2
-```
-```
-cd Queen_Anita-V2
-```
-```
-npm i
-```
-```
-npm start
-```
-
-- Command For 24/7
-```js
-npm i -g forever && forever index.js && forever save && forever logs
-```
 <br>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
@@ -144,7 +92,13 @@ npm i -g forever && forever index.js && forever save && forever logs
 
   <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-## 
+## HELPERS
+
+<a href="https://github.com/chhaseeb47"><img src="https://github.com/chhaseeb47.png?size=100" width="130" height="100"></a> | [<img src="https://github.com/Rushmaster12.png?size=100" width="100" height="100">](https://github.com/Rushmaster12) 
+---|---
+[CH HASEEB](https://github.com/Ajmal-Achu)  | [RUSHMASTER](https://github.com/Rushmaster12)
+Promotion | Groups Management|
+
 
 - *Queen_Anita-V2 is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
 - *In that case, I'm not responsible for banning your account.*
