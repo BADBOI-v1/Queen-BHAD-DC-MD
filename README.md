@@ -97,7 +97,7 @@
 - *In that case, I'm not responsible for banning your account.*
 - *Use Queen_Anita-V2 at your own risk by keeping this warning in mind.*
   
-  #### ```TOTAL PROFILE VIEWS 🧚```
+  #### ```DAVID CYRIL PROFILE VIEWS 🧚```
 ![Visitor Count](https://profile-counter.glitch.me/DeeCeeXxx/count.svg)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
