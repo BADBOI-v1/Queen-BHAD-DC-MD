@@ -29,7 +29,7 @@
 
 ### 2. GET SESSION ID HERE (PAIR CODE) 
 
-<a href='(https://session.osc-fr1.scalingo.io/pair' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+<a href='https://session.osc-fr1.scalingo.io/pair' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 ### 3. GET SESSION ID HERE (QR CODE) 
 
