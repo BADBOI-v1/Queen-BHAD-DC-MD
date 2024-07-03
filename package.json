@@ -5,9 +5,7 @@
     "main": "index.js",
     "type": "commonjs",
     "scripts": {
-        "run": "pm2 start . --deep-monitoring --attach --name Anita_0.1 || node .",
-        "start": "pm2 start . --attach --name Anita_0.1",
-        "stop": "pm2 stop Anita_0.1",
+        "start": "node index.js",
         "build": "echo \"Building the project...\""
     },
     "author": "QUEEN_ANITA-V2",
@@ -78,5 +76,8 @@
     "bugs": {
         "url": "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2/issues"
     },
-    "homepage": "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2#readme"
+    "homepage": "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2#readme",
+    "engines": {
+        "node": "14.x"
+    }
 }
