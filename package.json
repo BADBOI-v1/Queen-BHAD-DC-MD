@@ -78,6 +78,6 @@
     },
     "homepage": "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2#readme",
     "engines": {
-        "node": "14.x"
+        "node": "20.x"
     }
 }
