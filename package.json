@@ -6,7 +6,7 @@
     "type": "commonjs",
     "scripts": {
         "start": "node index.js",
-        "build": "echo \"Building the project...\""
+        "build": "[my-framework] build --output public"
     },
     "author": "QUEEN_ANITA-V2",
     "dependencies": {
