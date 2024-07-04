@@ -46,15 +46,15 @@ module.exports = {
   LANG: (process.env.THEME || "WhatsApp").toUpperCase(),
 };
 global.port = process.env.PORT;
-global.appUrl = process.env.APP_URL || "";
-global.email = "";
+global.appUrl = process.env.APP_URL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
+global.email = "davidcyril209@gmail.com";
 global.location = "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2";
-global.gurl = process.env.GURL || "";
-global.website = process.env.GURL || "";
+global.github = process.env.GITHUB || "https://github.com/DeeCeeXxx/QUEEN_Anita-V2";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
 global.devs = "2349066528353";
 global.msg_style = process.env.STYLE || "4";
 global.session_reset = process.env.SS_RESET || "false";
