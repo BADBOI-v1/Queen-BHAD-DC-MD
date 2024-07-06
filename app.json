@@ -19,11 +19,11 @@
     },
     "SESSION_ID": {
         "description": "put your SESSION_ID here.",
-        "value": ""
+        "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidU5Pa3ZHODR5SStxSmlMeWIzU1IxWllWY1VISXo2THNKdlUwTzduUS8wcz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTm1ub29iRnBYQXZkdHdUWkQ3M2IySFBkVkg0V2dNbXNLS04yOGFtcXJ3VT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJjRjh5Wk5HNFBnLzZrRUFHWFVidDRneE9qd2ZGQTI4bzYvY1drNUk2ZGtjPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJqaDlHWW5NRG5kSDQ5aFdRY0dpWUJvRlNGdXpMUkw2MEh3MkhkM3FDc3hFPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IldEdU1lU0N3a1dVcHR3NmZXcTNhT1phYjk0V3M4bFZ2WUFYTUgwYktmbUU9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImxFRTV2eVpkVDZ3ZjhXcW1GZy84R04vMmZaaWN1VFNzTFY1TDhoQ0dzeXc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQUF0ZzlSU3k5TzBQM1VIMGZqVXhXTW02dDNMZzlmT24wMzhWTmpGWUQxaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid1hMRmtaM3pVVXQ5eHJOOG91Y1pWUWQ0R0VIQm1YYStJeWh3cXV0UkpsVT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IllnZ2ZhUjFVOFlTRHI2c2tJYXdNMjdxamFGWGxvTzFTSUZYOWRUZE1WeVdPVU9vZXJOYmZQTys5TW54TVZQemllWkJjamszOExqaWxNUEZLSmZ1eWl3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTY5LCJhZHZTZWNyZXRLZXkiOiJ3SUZ3aVhBSlZOc0srQWJPWUh3MzZzbTh1M3h1SThKeDZzNDRvRjdpYnRZPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJDWF9heFpsclNwR3p5SmpLVHhvYzlnIiwicGhvbmVJZCI6IjAyMWQ1OTdkLWI4MjktNDU1MS1hMDZkLWY0MTQzMWNhNDcwNSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIzVWVVcWRUTmVVVUJrNlpXYXNybkpuY0x6dXM9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia0xjbGZ5MjM2bjRxcWpqMDFFRHBJbHZmaEtvPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlFTNVM1UUxSIiwibWUiOnsiaWQiOiIyMzM1OTE4NTY2MzA6MzVAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0p5ZDRvUUZFTy8zcExRR0dBSWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkZwWVl4bHRLdGZXUHVxQnlMdUI3VTc1WDhjUHNlT0JubEtiVTVLVFUyQ2c9IiwiYWNjb3VudFNpZ25hdHVyZSI6IjByVjJLdGdSV0FzdW9FYWxlOGFlR0kwa0F1NndLZHp4MmZmN0IzWTNtVGlwOXlVK0RNeW9OZ3M0NFRUQ3BrL2d6VHBtRnVuQkhmNzd3ZWJSZG0wOUJRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJHZVcxVnBCLzVqbmJzUDFrMFMzRHhvT0VkWktOMUVyRC9DNmhUdllFVkJlYWNaZVNweEFIUy9VSmtiSVNrUTZlOW5BZituQjgxckpGQ01FQStRQm1odz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzMzU5MTg1NjYzMDozNUBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJSYVdHTVpiU3JYMWo3cWdjaTdnZTFPK1YvSEQ3SGpnWjVTbTFPU2sxTmdvIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIwMjY5ODIwLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUgvWiJ9"
       },
     "WAPRESENCE": {
       "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
-      "required": false,
+      "required": true,
       "value": "online"
     },
     "OWNER_NAME": {
@@ -35,7 +35,7 @@
     "WELCOME": {
       "description": "Welcome Message",
       "value": "true",
-      "required": false
+      "required":true
     },
 
     "GOODBYE": {
@@ -51,7 +51,7 @@
     "USER_IMAGES": {
       "description": "Image for bot",
       "required": false,
-      "value": "https://telegra.ph/file/7275967ae7b5283fada69.jpg,https://telegra.ph/file/c3049cd3ac77f371e119e.jpg,https://telegra.ph/file/a22200a780671e0e32383.jpg,https://telegra.ph/file/85fe388fdd14930cf86a0.jpg,https://telegra.ph/file/ba9ced500f9eca7db8acb.mp4"
+      "value": "http://wa.me/233591856630"
     },
     "TZ": {
       "description": "Don't change if you dont know your location.",
@@ -71,7 +71,7 @@
     "WARN_COUNT": {
       "description": "Warn count for users to kick/block when warn limit exceed!",
       "required": false,
-      "value": "3"
+      "value": "99"
     },
     "AUTO_SAVE_STATUS": {
       "description": " Auto save whatsapp status",
@@ -80,7 +80,7 @@
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
-      "required": false,
+      "required": true,
       "value": "true"
     },
     "MSGS_IN_LOG": {
@@ -100,11 +100,11 @@
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-      "value": ""
+      "value": "."
     },
     "OWNER_NUMBER": {
       "description": "Owner number or sudo",
-      "value": "2349066528353,2347043759577"
+      "value": "233591856630"
     },
     "OPENAI_API_KEY": {
       "description": "put your OPENAI api key here.Get it from beta.openai.com ",
@@ -123,17 +123,17 @@
     },
     "MODE": {
       "description": "public or private",
-      "value": "private"
+      "value": "Public"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
       "value": "QUEEN_ANITA-V2",
-      "required": false
+      "required": true
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "",
-      "required": false
+      "value": "mcben",
+      "required": mcben
     }
   },
   "buildpacks": [
