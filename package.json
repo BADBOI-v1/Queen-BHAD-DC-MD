@@ -78,5 +78,9 @@
     "bugs": {
         "url": "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2/issues"
     },
-    "homepage": "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2#readme"
+    "homepage": "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2#readme",
+    "volta": {
+        "node": "20.0.0",
+        "yarn": "1.22.22"
+    }
 }
