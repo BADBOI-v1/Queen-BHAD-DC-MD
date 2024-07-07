@@ -1,21 +1,16 @@
-FROM node:16
+FROM quay.io/sampandey001/secktor
+
+RUN git clone https://github.com/DeeCeeXxx/Queen_Anita-V2.git /root/DeeCeeXxx
+
+# Clear npm cache and remove node_modules directories
+RUN npm cache clean --force
+RUN rm -rf /root/DeeCeeXxx/node_modules
 
 # Install dependencies
-RUN apt-get update && apt-get install -y \
-  pkg-config \
-  libpangocairo-1.0-0
-
-# Clone the repository
-RUN git clone https://github.com/DeeCeeXxx/QUEEN_ANITA-V2 /root/DeeCeeXxx
-
-# Set working directory
-WORKDIR /root/DeeCeeXxx
-
-# Install Node.js dependencies
+WORKDIR /root/Itxxwasi
 RUN npm install
 
-# Expose the application port
+# Add additional Steps To Run...
 EXPOSE 3000
-
-# Start the application
-CMD ["npm", "start"]
+CMD ["npm","start" ]
+# IF YOU ARE MODIFYING THIS BOT DONT CHANGE THIS  RUN rm -rf /root/Itxxwasi/node_modules
