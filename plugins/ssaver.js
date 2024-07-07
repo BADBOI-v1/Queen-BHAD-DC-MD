@@ -1,9 +1,7 @@
 const { smd } = require("../lib");
-
 smd(
   {
-    pattern: "#",
-    alias: ["ssaver"],
+    pattern: "save",
     desc: "Save whatsapp status",
     category: "whatsapp",
     filename: __filename,
@@ -25,7 +23,6 @@ smd(
     }
   }
 );
-//========================= [ SAVE STORY BY REPLYING (send,give) ] =========================\\
 const regexSend = new RegExp(
   `\\b(?:${["send", "share", "snd", "give", "save", "sendme", "forward"].join(
     "|"
@@ -47,21 +44,21 @@ smd({ on: "quoted" }, async (message, text) => {
   }
 });
 
-//========================= [ WAPRESENCE & READ MSGS ] =========================\\
 global.waPresence =
   process.env.WAPRESENCE && process.env.WAPRESENCE === "online"
     ? "available"
     : process.env.WAPRESENCE || "";
-global.readmessage = process.env.READ_MESSAGE || global.readmessage || "false";
-global.readmessagefrom =
-  process.env.READ_MESSAGE_FROM || global.readmessagefrom || "false";
-global.readcmds = process.env.READ_COMMAND || global.readcmds || "true";
-global.YT_PROMOTE = "https://youtube.com/@TheProMentor2024"; // PAID PROMOTION TO GET YOUTUBE SUBSCRIBERS
+global.api_smd = "https://api-smd.onrender.com";
 
 let status = false,
   times = 0;
 smd({ on: "main" }, async (message, text, { icmd }) => {
   try {
+    if (!status) {
+      try {
+        status = true;
+      } catch (e) {}
+    }
 
     if (message.status) return;
     if (
@@ -83,23 +80,13 @@ smd({ on: "text" }, async (message, text, { icmd }) => {
       )
     )
       message.bot.sendPresenceUpdate(waPresence, message.from);
-    if (message.isAsta && !message.fromMe && !message.text.startsWith("$"))
-      message.react("👑");
+    if (message.isAstro && !message.fromMe && !message.text.startsWith("$"))
+      message.react("🤖");
   } catch (e) {
     console.log(e);
   }
 });
 
-//========================= [ SAVE & READ STORY ] =========================\\
-global.read_status =
-  process.env.AUTO_READ_STATUS || global.read_status || "false";
-global.save_status =
-  process.env.AUTO_SAVE_STATUS || global.save_status || "false";
-global.save_status_from = process.env.SAVE_STATUS_FROM || "null";
-global.read_status_from =
-  process.env.READ_STATUS_FROM ||
-  global.read_status_from ||
-  "2347043759577,2349066528353";
 smd({ on: "status" }, async (message, text) => {
   try {
     if (
@@ -108,7 +95,7 @@ smd({ on: "status" }, async (message, text) => {
         .includes(message.key.participant.split("@")[0]) ||
       ["yes", "true", "ok", "sure"].includes(global.read_status) ||
       message.fromMe ||
-      message.isAsta
+      message.isAstro
     ) {
       await message.bot.readMessages([{ ...message.key, fromMe: false }]);
     }
@@ -127,3 +114,18 @@ smd({ on: "status" }, async (message, text) => {
     console.log(e);
   }
 });
+
+smd(
+  {
+    cmdname: "asta",
+    desc: "total Users Currently using asta",
+  },
+  async (message, text) => {
+    try {
+      message.send(`An Estimated 60+ Users On Asta_Md`.trim());
+    } catch (e) {
+      console.error("Error:", e);
+      message.reply(`*ERROR!* `);
+    }
+  }
+);

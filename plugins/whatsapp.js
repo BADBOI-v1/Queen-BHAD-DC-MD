@@ -2,10 +2,7 @@ const moment = require("moment-timezone");
 const Config = require("../config");
 let { smd, prefix, updateProfilePicture, parsedJid } = require("../lib");
 const { cmd } = require("../lib/plugins");
-
-const mtypes = ["imageMessage"];
-
-// Set profile picture
+let mtypes = ["imageMessage"];
 smd(
   {
     pattern: "pp",
@@ -15,20 +12,25 @@ smd(
     fromMe: true,
     filename: __filename,
   },
-  async (cld) => {
+  async (_0x4f9f9f) => {
     try {
-      let reply = mtypes.includes(cld.mtype) ? cld : cld.reply_message;
-      if (!reply || !mtypes.includes(reply?.mtype || "need_Media")) {
-        return await cld.reply("*Reply to an image, dear*");
+      let _0x3d8b6f = mtypes.includes(_0x4f9f9f.mtype)
+        ? _0x4f9f9f
+        : _0x4f9f9f.reply_message;
+      if (!_0x3d8b6f || !mtypes.includes(_0x3d8b6f?.mtype || "need_Media")) {
+        return await _0x4f9f9f.reply("*Reply to an image, dear*");
       }
-      return await updateProfilePicture(cld, cld.user, reply, "pp");
-    } catch (err) {
-      await cld.error(err + "\n\ncommand : pp", err);
+      return await updateProfilePicture(
+        _0x4f9f9f,
+        _0x4f9f9f.user,
+        _0x3d8b6f,
+        "pp"
+      );
+    } catch (_0x18308f) {
+      await _0x4f9f9f.error(_0x18308f + "\n\ncommand : pp", _0x18308f);
     }
   }
 );
-
-// Set full screen profile picture
 smd(
   {
     pattern: "fullpp",
@@ -38,20 +40,27 @@ smd(
     fromMe: true,
     filename: __filename,
   },
-  async (cld) => {
+  async (_0x36432c) => {
     try {
-      let reply = mtypes.includes(cld.mtype) ? cld : cld.reply_message;
-      if (!reply || !mtypes.includes(reply?.mtype || "need_Media")) {
-        return await cld.reply("*Reply to an image, dear*");
+      let _0x312b1b = mtypes.includes(_0x36432c.mtype)
+        ? _0x36432c
+        : _0x36432c.reply_message;
+      if (!_0x312b1b || !mtypes.includes(_0x312b1b?.mtype || "need_Media")) {
+        return await _0x36432c.reply("*Reply to an image, dear*");
       }
-      return await updateProfilePicture(cld, cld.user, reply, "fullpp");
-    } catch (err) {
-      await cld.error(err + "\n\ncommand : fullpp", err);
+      return await updateProfilePicture(
+        _0x36432c,
+        _0x36432c.user,
+        _0x312b1b,
+        "fullpp"
+      );
+    } catch (_0x8343ed) {
+      await _0x36432c.error(_0x8343ed + "\n\ncommand : fullpp", _0x8343ed);
+    }
+    {
     }
   }
 );
-
-// Remove profile picture
 smd(
   {
     pattern: "rpp",
@@ -61,17 +70,15 @@ smd(
     fromMe: true,
     filename: __filename,
   },
-  async (cld) => {
+  async (_0x1c9bb5) => {
     try {
-      await cld.removepp();
-      cld.send("*_Profile picture removed successfully!_*");
-    } catch (err) {
-      await cld.error(err + "\n\ncommand : rpp", err);
+      await _0x1c9bb5.removepp();
+      _0x1c9bb5.send("*_Profile picture removed successfully!_*");
+    } catch (_0x385cbc) {
+      await _0x1c9bb5.error(_0x385cbc + "\n\ncommand : rpp", _0x385cbc);
     }
   }
 );
-
-// Update bio
 smd(
   {
     pattern: "bio",
@@ -81,24 +88,22 @@ smd(
     fromMe: true,
     filename: __filename,
   },
-  async (cld, text) => {
+  async (_0xd700b1, _0xb45f41) => {
     try {
-      if (!text) {
-        return await cld.send(
+      if (!_0xb45f41) {
+        return await _0xd700b1.send(
           "*_provide text to update profile status!_*\n*_Example: " +
             prefix +
             "bio QUEEN_ANITA-V2_*"
         );
       }
-      await cld.bot.updateProfileStatus(text);
-      cld.send("*Profile status updated successfully!*");
-    } catch (err) {
-      await cld.error(err + "\n\ncommand : bio", err);
+      await _0xd700b1.bot.updateProfileStatus(_0xb45f41);
+      _0xd700b1.send("*Profile status updated successfully!*");
+    } catch (_0x365d42) {
+      await _0xd700b1.error(_0x365d42 + "\n\ncommand : bio", _0x365d42);
     }
   }
 );
-
-// Send Picture-in-Picture (PiP) video
 cmd(
   {
     pattern: "ptv",
@@ -106,44 +111,48 @@ cmd(
     category: "whatsapp",
     filename: __filename,
   },
-  async (cld, _, { cmdName }) => {
+  async (_0x235a20, _0x3f96d6, { cmdName: _0x31c746 }) => {
     try {
-      if (!cld.quoted) {
-        return await cld.send("*Uhh Please, reply to video*");
+      if (!_0x235a20.quoted) {
+        return await _0x235a20.send("*Uhh Please, reply to video*");
       }
-      let mtype = cld.quoted.mtype;
-      if (mtype !== "videoMessage") {
-        return await cld.send("*Uhh Dear, reply to a video message*");
+      let _0x109aee = _0x235a20.quoted.mtype;
+      if (_0x109aee !== "videoMessage") {
+        return await _0x235a20.send("*Uhh Dear, reply to a video message*");
       }
-      return await cld.bot.forwardOrBroadCast(cld.chat, cld.quoted, {}, "ptv");
-    } catch (err) {
-      await cld.error(err + "\n\ncommand : ptv", err);
+      return await _0x235a20.bot.forwardOrBroadCast(
+        _0x235a20.chat,
+        _0x235a20.quoted,
+        {},
+        "ptv"
+      );
+    } catch (_0x5ae8f7) {
+      await _0x235a20.error(_0x5ae8f7 + "\n\ncommand : ptv", _0x5ae8f7);
     }
   }
 );
-
-// Save message to log number
 cmd(
   {
-    pattern: "save",
+    pattern: "slog",
     desc: "Save Message to log number",
     category: "whatsapp",
     filename: __filename,
   },
-  async (cld, _, { cmdName }) => {
+  async (_0x23a729, _0x5ad999, { cmdName: _0x2cb44f }) => {
     try {
-      let reply = cld.reply_message;
-      if (!reply) {
-        return await cld.send("*Uhh Please, reply to to a Message*");
+      let _0x48ef43 = _0x23a729.reply_message;
+      if (!_0x48ef43) {
+        return await _0x23a729.send("*Uhh Please, reply to to a Message*");
       }
-      let sent = await cld.bot.forwardOrBroadCast(cld.user, reply);
-    } catch (err) {
-      await cld.error(err + "\n\ncommand : save", err);
+      let _0x114513 = await _0x23a729.bot.forwardOrBroadCast(
+        _0x23a729.user,
+        _0x48ef43
+      );
+    } catch (_0x43530a) {
+      await _0x23a729.error(_0x43530a + "\n\ncommand : save", _0x43530a);
     }
   }
 );
-
-// Get quoted message
 cmd(
   {
     pattern: "quoted",
@@ -151,31 +160,40 @@ cmd(
     category: "user",
     filename: __filename,
   },
-  async (cld) => {
+  async (_0x65da56) => {
     try {
-      if (!cld.quoted) {
-        return await cld.send("*_Uhh Dear, Reply to a Message_*");
+      if (!_0x65da56.quoted) {
+        return await _0x65da56.send("*_Uhh Dear, Reply to a Message_*");
       }
-      let quoted = await cld.bot.serializeM(await cld.getQuotedObj());
-      if (!quoted || !quoted.quoted) {
-        return await cld.replay(
+      var _0xaab596 = await _0x65da56.bot.serializeM(
+        await _0x65da56.getQuotedObj()
+      );
+      if (!_0xaab596 || !_0xaab596.quoted) {
+        return await _0x65da56.replay(
           "*Message you replied does not contain a reply Message*"
         );
       }
       try {
-        await cld.react("✨", cld);
-        return await cld.bot.copyNForward(cld.chat, quoted.quoted, false);
-      } catch (err) {
-        await cld.bot.forward(cld.chat, quoted.quoted, {}, cld);
-        console.log(err);
+        await _0x65da56.react("✨", _0x65da56);
+        return await _0x65da56.bot.copyNForward(
+          _0x65da56.chat,
+          _0xaab596.quoted,
+          false
+        );
+      } catch (_0x669d0c) {
+        await _0x65da56.bot.forward(
+          _0x65da56.chat,
+          _0xaab596.quoted,
+          {},
+          _0x65da56
+        );
+        console.log(_0x669d0c);
       }
-    } catch (err) {
-      await cld.error(err + "\n\ncommand : quoted", err);
+    } catch (_0x358ded) {
+      await _0x65da56.error(_0x358ded + "\n\ncommand : quoted", _0x358ded);
     }
   }
 );
-
-// Get blocklist
 cmd(
   {
     pattern: "blocklist",
@@ -185,30 +203,35 @@ cmd(
     filename: __filename,
     use: "<text>",
   },
-  async (cld) => {
+  async (_0x48a6fc) => {
     try {
-      const blockedUsers = await cld.bot.fetchBlocklist();
-      if (blockedUsers.length === 0) {
-        return await cld.reply("Uhh Dear, You don't have any Blocked Numbers.");
+      const _0x2c7cd9 = await _0x48a6fc.bot.fetchBlocklist();
+      if (_0x2c7cd9.length === 0) {
+        return await _0x48a6fc.reply(
+          "Uhh Dear, You don't have any Blocked Numbers."
+        );
       }
-      let text =
+      let _0x50c0a6 =
         "\n*≡ List*\n\n*_Total Users:* " +
-        blockedUsers.length +
+        _0x2c7cd9.length +
         "_\n\n┌─⊷ \t*BLOCKED USERS*\n";
-      for (let i = 0; i < blockedUsers.length; i++) {
-        text +=
-          "▢ " + (i + 1) + ":- wa.me/" + blockedUsers[i].split("@")[0] + "\n";
+      for (let _0x261860 = 0; _0x261860 < _0x2c7cd9.length; _0x261860++) {
+        _0x50c0a6 +=
+          "▢ " +
+          (_0x261860 + 1) +
+          ":- wa.me/" +
+          _0x2c7cd9[_0x261860].split("@")[0] +
+          "\n";
       }
-      text += "└───────────";
-      return await cld.bot.sendMessage(cld.chat, { text });
-    } catch (err) {
-      await cld.error(err + "\n\ncommand : blocklist", err);
+      _0x50c0a6 += "└───────────";
+      return await _0x48a6fc.bot.sendMessage(_0x48a6fc.chat, {
+        text: _0x50c0a6,
+      });
+    } catch (_0x526b95) {
+      await _0x48a6fc.error(_0x526b95 + "\n\ncommand : blocklist", _0x526b95);
     }
   }
 );
-
-// Send location
-// Location Command
 cmd(
   {
     pattern: "location",
@@ -216,51 +239,47 @@ cmd(
     category: "whatsapp",
     filename: __filename,
   },
-  async (message, args) => {
+  async (_0x1de930, _0x4113fc) => {
     try {
-      if (!args) {
-        return await message.reply(
+      if (!_0x4113fc) {
+        return await _0x1de930.reply(
           "*Give Coordinates To Send Location!*\n *Ex: " +
             prefix +
             "location 24.121231,55.1121221*"
         );
       }
-
-      const latitude = parseFloat(args.split(",")[0]) || "";
-      const longitude = parseFloat(args.split(",")[1]) || "";
-
-      if (!latitude || isNaN(latitude) || !longitude || isNaN(longitude)) {
-        return await message.reply("*_Coordinates Not In Format, Try Again_*");
+      let _0x1622ee = parseFloat(_0x4113fc.split(",")[0]) || "";
+      let _0x4c75f7 = parseFloat(_0x4113fc.split(",")[1]) || "";
+      if (!_0x1622ee || isNaN(_0x1622ee) || !_0x4c75f7 || isNaN(_0x4c75f7)) {
+        return await _0x1de930.reply(
+          "*_Cordinates Not In Formate, Try Again_*"
+        );
       }
-
-      await message.reply(
+      await _0x1de930.reply(
         "*----------LOCATION------------*\n```Sending Location Of Given Data:\n Latitude: " +
-          latitude +
+          _0x1622ee +
           "\n Longitude: " +
-          longitude +
+          _0x4c75f7 +
           "```\n\n" +
           Config.caption
       );
-
-      return await message.sendMessage(
-        message.jid,
+      return await _0x1de930.sendMessage(
+        _0x1de930.jid,
         {
           location: {
-            degreesLatitude: latitude,
-            degreesLongitude: longitude,
+            degreesLatitude: _0x1622ee,
+            degreesLongitude: _0x4c75f7,
           },
         },
         {
-          quoted: message,
+          quoted: _0x1de930,
         }
       );
-    } catch (error) {
-      await message.error(error + "\n\ncommand : location", error);
+    } catch (_0x399d05) {
+      await _0x1de930.error(_0x399d05 + "\n\ncommand : location", _0x399d05);
     }
   }
 );
-
-// List Personal Chats Command
 smd(
   {
     pattern: "listpc",
@@ -268,45 +287,40 @@ smd(
     desc: "Finds info about personal chats",
     filename: __filename,
   },
-  async (message, isPattern, { store }) => {
+  async (_0xc7dd0, _0x22efeb, { store: _0x1c364d }) => {
     try {
-      message.react("🫡");
-      const personalChats = await store.chats
+      _0xc7dd0.react("🫡");
+      let _0x5c8d61 = await _0x1c364d.chats
         .all()
-        .filter((chat) => chat.id.endsWith(".net"))
-        .map((chat) => chat);
-
-      let result =
+        .filter((_0x3b06a8) => _0x3b06a8.id.endsWith(".net"))
+        .map((_0x21d01f) => _0x21d01f);
+      let _0x9ec34d =
         " 「  " +
         Config.botname +
         "'s pm user list  」\n\nTotal " +
-        personalChats.length +
+        _0x5c8d61.length +
         " users are text in personal chat.";
-
-      for (const chat of personalChats) {
-        result +=
+      for (let _0x4d6030 of _0x5c8d61) {
+        _0x9ec34d +=
           "\n\nUser: @" +
-          chat.id.split("@")[0] +
+          _0x4d6030.id.split("@")[0] +
           "\nMessages : " +
-          chat.unreadCount +
+          _0x4d6030.unreadCount +
           "\nLastchat : " +
-          moment(chat.conversationTimestamp * 1000)
+          moment(_0x4d6030.conversationTimestamp * 1000)
             .tz(timezone)
             .format("DD/MM/YYYY HH:mm:ss");
       }
-
-      message.bot.sendTextWithMentions(message.chat, result, message);
-    } catch (error) {
-      return await message.error(
-        error + "\n\n command: listpc",
-        error,
+      _0xc7dd0.bot.sendTextWithMentions(_0xc7dd0.chat, _0x9ec34d, _0xc7dd0);
+    } catch (_0x5752f9) {
+      return await _0xc7dd0.error(
+        _0x5752f9 + "\n\n command: listpc",
+        _0x5752f9,
         "*_Didn't get any results, Sorry!_*"
       );
     }
   }
 );
-
-// List Group Chats Command
 smd(
   {
     pattern: "listgc",
@@ -314,58 +328,55 @@ smd(
     desc: "Finds info about all active groups",
     filename: __filename,
   },
-  async (message, isPattern, { store, Void }) => {
+  async (_0x281fb2, _0x20e08d, { store: _0x7945b9, Void: _0x274b4e }) => {
     try {
-      message.react("🫡");
-      const groupChats = await store.chats
+      _0x281fb2.react("🫡");
+      let _0x2c5ea1 = await _0x7945b9.chats
         .all()
-        .filter((chat) => chat.id.endsWith("@g.us"))
-        .map((chat) => chat);
-
-      let result =
+        .filter((_0x82e0b2) => _0x82e0b2.id.endsWith("@g.us"))
+        .map((_0xd85092) => _0xd85092);
+      let _0x21f6f4 =
         " 「  " +
         Config.botname +
         "'s group user list  」\n\nTotal " +
-        groupChats.length +
+        _0x2c5ea1.length +
         " active Groups found!";
-
-      for (const chat of groupChats) {
-        const metadata = await Void.groupMetadata(chat.id);
-        result +=
+      for (let _0xd36fa of _0x2c5ea1) {
+        let _0x433157 = await _0x274b4e.groupMetadata(_0xd36fa.id);
+        _0x21f6f4 +=
           "\n\nName : " +
-          metadata.subject +
+          _0x433157.subject +
           " " +
-          (metadata.owner ? "\nOwner : @" + metadata.owner.split("@")[0] : "") +
+          (_0x433157.owner
+            ? "\nOwner : @" + _0x433157.owner.split("@")[0]
+            : "") +
           "\nID : " +
-          chat.id +
+          _0xd36fa.id +
           "\nMade : " +
-          (metadata.creation
-            ? moment(metadata.creation * 1000)
+          (_0x433157.creation
+            ? moment(_0x433157.creation * 1000)
                 .tz("Asia/Kolkata")
                 .format("DD/MM/YYYY HH:mm:ss")
-            : metadata.creation) +
+            : _0x433157.creation) +
           "\nMember : " +
-          (metadata.participants.length || 0) +
+          (_0x433157.participants.length || 0) +
           "\n\nMessages : " +
-          chat.unreadCount +
+          _0xd36fa.unreadCount +
           "\nLastchat : " +
-          moment(chat.conversationTimestamp * 1000)
+          moment(_0xd36fa.conversationTimestamp * 1000)
             .tz(timezone)
             .format("DD/MM/YYYY HH:mm:ss");
       }
-
-      message.send(result, {}, "suhail", message);
-    } catch (error) {
-      return await message.error(
-        error + "\n\n command: listpc",
-        error,
+      _0x281fb2.send(_0x21f6f4, {}, "asta", _0x281fb2);
+    } catch (_0x5633d6) {
+      return await _0x281fb2.error(
+        _0x5633d6 + "\n\n command: listpc",
+        _0x5633d6,
         "*_Didn't get any results, Sorry!_*"
       );
     }
   }
 );
-
-// Create vCard Command
 cmd(
   {
     pattern: "vcard",
@@ -373,55 +384,48 @@ cmd(
     category: "whatsapp",
     filename: __filename,
   },
-  async (message, args) => {
+  async (_0xcffaeb, _0x4158fc) => {
     try {
-      if (!message.quoted) {
-        return message.reply("*Please Reply to User With Name*");
+      if (!_0xcffaeb.quoted) {
+        return _0xcffaeb.reply("*Please Reply to User With Name*");
       }
-
-      if (!args) {
-        return message.reply(
+      if (!_0x4158fc) {
+        return _0xcffaeb.reply(
           "Please Give Me User Name, \n *Example : " +
             prefix +
-            "vcard QUEEN_ANITA-V2* "
+            "vcard QUEEN_ANITA-V2 Tech Info* "
         );
       }
-
-      let nameArray = args.split(" ");
-      if (nameArray.length > 3) {
-        args = nameArray.slice(0, 3).join(" ");
+      var _0x423556 = _0x4158fc.split(" ");
+      if (_0x423556.length > 3) {
+        _0x4158fc = _0x423556.slice(0, 3).join(" ");
       }
-
-      const vCard =
+      const _0x11df4f =
         "BEGIN:VCARD\nVERSION:3.0\nFN:" +
-        args +
+        _0x4158fc +
         "\nORG:;\nTEL;type=CELL;type=VOICE;waid=" +
-        message.quoted.sender.split("@")[0] +
+        _0xcffaeb.quoted.sender.split("@")[0] +
         ":+" +
         owner[0] +
         "\nEND:VCARD";
-
-      const contactMessage = {
+      let _0x50f316 = {
         contacts: {
-          displayName: args,
+          displayName: _0x4158fc,
           contacts: [
             {
-              vcard: vCard,
+              vcard: _0x11df4f,
             },
           ],
         },
       };
-
-      return await message.bot.sendMessage(message.chat, contactMessage, {
-        quoted: message,
+      return await _0xcffaeb.bot.sendMessage(_0xcffaeb.chat, _0x50f316, {
+        quoted: _0xcffaeb,
       });
-    } catch (error) {
-      await message.error(error + "\n\ncommand : vcard", error);
+    } catch (_0x429e69) {
+      await _0xcffaeb.error(_0x429e69 + "\n\ncommand : vcard", _0x429e69);
     }
   }
 );
-
-// Edit Message Command
 smd(
   {
     pattern: "edit",
@@ -429,31 +433,26 @@ smd(
     desc: "edit message that sended by bot",
     type: "whatsapp",
   },
-  async (message, args) => {
+  async (_0x1afa64, _0x539d95) => {
     try {
-      const botMessage =
-        message.reply_message && message.reply_message.fromMe
-          ? message.reply_message
+      let _0x329b9f =
+        _0x1afa64.reply_message && _0x1afa64.reply_message.fromMe
+          ? _0x1afa64.reply_message
           : false;
-
-      if (!botMessage) {
-        return await message.reply("_Reply to a message that sent by you!_");
+      if (!_0x329b9f) {
+        return await _0x1afa64.reply("_Reply to a message that sent by you!_");
       }
-
-      if (!args) {
-        return await message.reply("_Need text, Example: edit hi_");
+      if (!_0x539d95) {
+        return await _0x1afa64.reply("_Need text, Example: edit hi_");
       }
-
-      return await message.edit(args, {
-        edit: botMessage,
+      return await _0x1afa64.edit(_0x539d95, {
+        edit: _0x329b9f,
       });
-    } catch (error) {
-      await message.error(error + "\n\ncommand : edit", error);
+    } catch (_0x294464) {
+      await _0x1afa64.error(_0x294464 + "\n\ncommand : edit", _0x294464);
     }
   }
 );
-
-// Forward Message Command
 smd(
   {
     pattern: "forward",
@@ -461,31 +460,30 @@ smd(
     desc: "forward your messages in jid",
     type: "whatsapp",
   },
-  async (message, args) => {
+  async (_0x402cfa, _0x122b17) => {
     try {
-      if (!message.reply_message) {
-        return message.reply("*_Reply to something!_*");
+      if (!_0x402cfa.reply_message) {
+        return _0x402cfa.reply("*_Reply to something!_*");
       }
-
-      const jids = await parsedJid(args);
-      if (!jids || !jids[0]) {
-        return await message.send(
+      let _0x363cd7 = await parsedJid(_0x122b17);
+      if (!_0x363cd7 || !_0x363cd7[0]) {
+        return await _0x402cfa.send(
           "*Provide jid to forward message*\n*use _" +
             prefix +
             "jid,_ to get jid of users!*"
         );
       }
-
-      for (let i = 0; i < jids.length; i++) {
-        message.bot.forwardOrBroadCast(jids[i], message.reply_message);
+      for (let _0x4a5ab9 = 0; _0x4a5ab9 < _0x363cd7.length; _0x4a5ab9++) {
+        _0x402cfa.bot.forwardOrBroadCast(
+          _0x363cd7[_0x4a5ab9],
+          _0x402cfa.reply_message
+        );
       }
-    } catch (error) {
-      await message.error(error + "\n\ncommand : forward", error);
+    } catch (_0x3721ac) {
+      await _0x402cfa.error(_0x3721ac + "\n\ncommand : forward", _0x3721ac);
     }
   }
 );
-
-// Block User Command
 smd(
   {
     cmdname: "block",
@@ -495,37 +493,32 @@ smd(
     filename: __filename,
     use: "<quote/reply user.>",
   },
-  async (message) => {
+  async (_0x1ed3b3) => {
     try {
-      let user = message.reply_message
-        ? message.reply_message.sender
-        : !message.isGroup
-        ? message.from
-        : message.mentionedJid[0]
-        ? message.mentionedJid[0]
+      let _0x3489cf = _0x1ed3b3.reply_message
+        ? _0x1ed3b3.reply_message.sender
+        : !_0x1ed3b3.isGroup
+        ? _0x1ed3b3.from
+        : _0x1ed3b3.mentionedJid[0]
+        ? _0x1ed3b3.mentionedJid[0]
         : "";
-
-      if (!user && !user.includes("@s.whatsapp.net")) {
-        return await message.reply("*Uhh dear, reply/mention an User*");
+      if (!_0x3489cf && !_0x3489cf.includes("@s.whatsapp.net")) {
+        return await _0x1ed3b3.reply("*Uhh dear, reply/mention an User*");
       }
-
-      if (message.checkBot(user)) {
-        return await message.reply("*Huh, I can't block my Creator!!*");
+      if (_0x1ed3b3.checkBot(_0x3489cf)) {
+        return await _0x1ed3b3.reply("*Huh, I can't block my Creator!!*");
       }
-
-      await message.bot
-        .updateBlockStatus(user, "block")
-        .then(() => {
-          message.react("✨", message);
+      await _0x1ed3b3.bot
+        .updateBlockStatus(_0x3489cf, "block")
+        .then((_0x112d4d) => {
+          _0x1ed3b3.react("✨", _0x1ed3b3);
         })
-        .catch(() => message.reply("*_Can't block user, Sorry!!_*"));
-    } catch (error) {
-      await message.error(error + "\n\ncommand: block", error, false);
+        .catch((_0x4deb64) => _0x1ed3b3.reply("*_Can't block user, Sorry!!_*"));
+    } catch (_0x337f7a) {
+      await _0x1ed3b3.error(_0x337f7a + "\n\ncommand: block", _0x337f7a, false);
     }
   }
 );
-
-// Unblock User Command
 smd(
   {
     cmdname: "unblock",
@@ -534,40 +527,36 @@ smd(
     fromMe: true,
     filename: __filename,
   },
-  async (message) => {
+  async (_0xdd6403) => {
     try {
-      let user = message.reply_message
-        ? message.reply_message.sender
-        : !message.isGroup
-        ? message.from
-        : message.mentionedJid[0]
-        ? message.mentionedJid[0]
+      let _0xe86e54 = _0xdd6403.reply_message
+        ? _0xdd6403.reply_message.sender
+        : !_0xdd6403.isGroup
+        ? _0xdd6403.from
+        : _0xdd6403.mentionedJid[0]
+        ? _0xdd6403.mentionedJid[0]
         : "";
-
-      if (!user && !user.includes("@s.whatsapp.net")) {
-        return await message.reply("*Uhh dear, reply/mention an User*");
+      if (!_0xe86e54 && !_0xe86e54.includes("@s.whatsapp.net")) {
+        return await _0xdd6403.reply("*Uhh dear, reply/mention an User*");
       }
-
-      await message.bot
-        .updateBlockStatus(user, "unblock")
-        .then(() =>
-          message.send(
-            "*@" + user.split("@")[0] + " Unblocked Successfully..!*",
+      await _0xdd6403.bot
+        .updateBlockStatus(_0xe86e54, "unblock")
+        .then((_0x4f3a25) =>
+          _0xdd6403.send(
+            "*@" + _0xe86e54.split("@")[0] + " Unblocked Successfully..!*",
             {
               mentions: [users],
             }
           )
         )
-        .catch(() =>
-          message.reply("*_Can't Unblock user, Make sure user blocked!!_*")
+        .catch((_0x2f7e88) =>
+          _0xdd6403.reply("*_Can't Unblock user, Make sure user blocked!!_*")
         );
-    } catch (error) {
-      await message.error(error + "\n\ncommand: unblock", error);
+    } catch (_0x5ae50f) {
+      await _0xdd6403.error(_0x5ae50f + "\n\ncommand: unblock", _0x5ae50f);
     }
   }
 );
-
-// Download View Once Message Command
 cmd(
   {
     pattern: "vv",
@@ -575,56 +564,50 @@ cmd(
     desc: "download viewOnce Message.",
     category: "whatsapp",
     use: "<query>",
-    react: "👀",
+    react: "🫦",
     filename: __filename,
   },
-  async (message, args) => {
+  async (_0x5e331d, _0x237d8a) => {
     try {
-      let viewOnceMessage = false;
-
-      if (message.reply_message) {
+      var _0x17ffa2 = false;
+      if (_0x5e331d.reply_message) {
         if (
-          message.reply_message.viewOnce ||
-          (message.device === "ios" &&
+          _0x5e331d.reply_message.viewOnce ||
+          (_0x5e331d.device === "ios" &&
             /audioMessage|videoMessage|imageMessage/g.test(
-              message.reply_message.mtype
+              _0x5e331d.reply_message.mtype
             ))
         ) {
-          viewOnceMessage = message.reply_message;
+          _0x17ffa2 = _0x5e331d.reply_message;
         }
       }
-
-      viewOnceMessage.mtype = viewOnceMessage.mtype2;
-
-      if (!viewOnceMessage) {
-        return message.reply("```Please Reply A ViewOnce Message```");
+      _0x17ffa2.mtype = _0x17ffa2.mtype2;
+      if (!_0x17ffa2) {
+        return _0x5e331d.reply("```Please Reply A ViewOnce Message```");
       }
-
-      const downloadedMedia = await message.bot.downloadAndSaveMediaMessage(
-        viewOnceMessage.msg
-      );
-
-      const viewOnceMessageKey = {
-        key: viewOnceMessage.key,
+      let _0x86453 = {
+        key: _0x17ffa2.key,
         message: {
           conversation: "```[VIEWONCE FOUND DOWNLOAD 100%]```",
         },
       };
-
-      await message.bot.sendMessage(
-        message.jid,
+      let _0x22f0a2 = await _0x5e331d.bot.downloadAndSaveMediaMessage(
+        _0x17ffa2.msg
+      );
+      await _0x5e331d.bot.sendMessage(
+        _0x5e331d.jid,
         {
-          [viewOnceMessage.mtype2.split("Mess")[0]]: {
-            url: downloadedMedia,
+          [_0x17ffa2.mtype2.split("Mess")[0]]: {
+            url: _0x22f0a2,
           },
-          caption: viewOnceMessage.body,
+          caption: _0x17ffa2.body,
         },
         {
-          quoted: viewOnceMessageKey,
+          quoted: _0x86453,
         }
       );
-    } catch (error) {
-      await message.error(error + "\n\ncommand: vv", error);
+    } catch (_0x23316d) {
+      await _0x5e331d.error(_0x23316d + "\n\ncommand: vv", _0x23316d);
     }
   }
 );
