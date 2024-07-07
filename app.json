@@ -1,150 +1,132 @@
 {
-  "name": "QUEEN_ANITA-V2",
-  "description": "QUEEN_ANITA-V2 a simple WhatsAppp Bot",
-  "logo": "https://telegra.ph/file/a22200a780671e0e32383.jpg",
-  "keywords": "Anita-V2",
-  "success_url": "/Asta/",
-  "app_url": "/qr/",
-
-  "env": {
-    "HEROKU_API_KEY": {
-      "description": "Put Your Heroku Api Key Here",
-      "value": "",
-      "required": true
-    },
-    "HEROKU_APP_NAME": {
-      "description": "Put Your Heroku App Name Here",
-      "value": "",
-      "required": true
-    },
-    "SESSION_ID": {
+    "name": "RIAS_GREMORY-BOT v1.0",
+    "description": "Simple WhatsApp Bot",
+    "logo": "https://i.imgur.com/EBUvKfB.jpeg",
+    "keywords": ["RIAS_GREMORY-BOT", "rais", "rais-Bot"],
+    "success_url": "/",
+    "stack": "container",
+  
+    "env": {
+      "OWNER_NAME": {
+        "description": "Name for Bot Owner",
+        "value": "TOXXIC MD",
+        "required": true
+      },
+  
+      "WELCOME": {
+        "description": "put 'false' or 'true' to enable & disable WELCOME ",
+        "value": "false",
+        "required": false
+      },
+      "USER_IMAGES": {
+        "description": "Menu Images",
+        "value": "https://i.imgur.com/EBUvKfB.jpeg",
+        "required": false
+      },
+  
+      "GOODBYE": {
+        "description": "put 'false' or 'true' to enable & disable GOODBYE ",
+        "value": "false",
+        "required": false
+      },
+      "MENU": {
+        "description": "choose 1, 2, 3",
+        "value": "1"
+      },
+      "THUMB_IMAGE": {
+        "description": "Thumbnail",
+        "value": "https://i.imgur.com/EBUvKfB.jpeg"
+      },
+      "BOT_NAME": {
+        "description": " NAME FOR BOT",
+        "required": false,
+        "value": "RIAS_GREMORY-BOT"
+      },
+      "TZ": {
+        "description": "Put TIME_ZONE according to your location",
+        "required": false,
+        "value": "Africa/Lagos"
+      },
+      "READ_COMMAND": {
+        "description": " Read bot cmds",
+        "required": false,
+        "value": "false"
+      },
+      "WARN_COUNT": {
+        "description": " Warn count for users to kick/block when warn limit exceed!",
+        "required": false,
+        "value": "3"
+      },
+      "AUTO_SAVE_STATUS": {
+        "description": " Auto save whatsapp status",
+        "required": false,
+        "value": "false"
+      },
+      "HEROKU_API_KEY": {
+        "description": "Put Your Heroku Api Key Here",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Put Your Heroku App Name Here",
+        "value": "",
+        "required": true
+      },
+      "WAPRESENCE": {
+        "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
+        "required": false,
+        "value": "unavailable"
+      },
+      "AUTO_READ_STATUS": {
+        "description": "Fill the value true if you want bot view your Statuses.",
+        "required": false,
+        "value": "true"
+      },
+      "MSGS_IN_LOG": {
+        "description": "Fill the value -true- if you want to see Messages in logs.",
+        "required": false,
+        "value": "false"
+      },
+      "READ_MESSAGE": {
+        "description": "Fill the value true if you want bot to read all messages.",
+        "required": false,
+        "value": "false"
+      },
+      "DISABLE_PM": {
+        "description": "Make it 'false' if you wanna run bot in your pm (if MODE is Public)",
+        "value": "false",
+        "required": false
+      },
+      "PREFIX": {
+        "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
+        "value": "."
+      },
+      "OWNER_NUMBER": {
+        "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+        "value": "33757054414"
+      },
+      "SESSION_ID": {
         "description": "put your SESSION_ID here.",
         "value": ""
       },
-    "WAPRESENCE": {
-      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
-      "required": false,
-      "value": "online"
+      "MODE": {
+        "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
+        "value": "private"
+      },
+      "PACK_NAME": {
+        "description": "Put Sticker Pack_Name.",
+        "value": "Asta Md",
+        "required": false
+      },
+      "PACK_AUTHER": {
+        "description": "Put Sticker Author_Name.",
+        "value": "",
+        "required": false
+      }
     },
-    "OWNER_NAME": {
-      "description": "Owner Name",
-      "value": "David Cyril",
-      "required": true
-    },
-
-    "WELCOME": {
-      "description": "Welcome Message",
-      "value": "true",
-      "required": false
-    },
-
-    "GOODBYE": {
-      "description": "Goodbye Message",
-      "value": "false",
-      "required": false
-    },
-    "BOT_NAME": {
-      "description": "Bot Name",
-      "required": false,
-      "value": "QUEEN_ANITA-V2"
-    },
-    "USER_IMAGES": {
-      "description": "Image for bot",
-      "required": false,
-      "value": "https://telegra.ph/file/7275967ae7b5283fada69.jpg,https://telegra.ph/file/c3049cd3ac77f371e119e.jpg,https://telegra.ph/file/a22200a780671e0e32383.jpg,https://telegra.ph/file/85fe388fdd14930cf86a0.jpg,https://telegra.ph/file/ba9ced500f9eca7db8acb.mp4"
-    },
-    "TZ": {
-      "description": "Don't change if you dont know your location.",
-      "required": false,
-      "value": "Africa/Lagos"
-    },
-    "SS_RESET": {
-      "description": "If the bot doesn't work after delpoyment",
-      "required": false,
-      "value": "false"
-    },
-    "READ_COMMAND": {
-      "description": "Read Commands",
-      "required": false,
-      "value": "false"
-    },
-    "WARN_COUNT": {
-      "description": "Warn count for users to kick/block when warn limit exceed!",
-      "required": false,
-      "value": "3"
-    },
-    "AUTO_SAVE_STATUS": {
-      "description": " Auto save whatsapp status",
-      "required": false,
-      "value": "false"
-    },
-    "AUTO_READ_STATUS": {
-      "description": "Fill the value true if you want bot view your Statuses.",
-      "required": false,
-      "value": "true"
-    },
-    "MSGS_IN_LOG": {
-      "description": "Fill the value -true- if you want to see Messages in logs.",
-      "required": false,
-      "value": "false"
-    },
-    "READ_MESSAGE": {
-      "description": "Fill the value true if you want bot to read all messages.",
-      "required": false,
-      "value": "false"
-    },
-    "DISABLE_PM": {
-      "description": "Disable bot in pm, Take it false if you wanna run bot in your pm (if MODE is Public)",
-      "value": "false",
-      "required": false
-    },
-    "PREFIX": {
-      "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-      "value": ""
-    },
-    "OWNER_NUMBER": {
-      "description": "Owner number or sudo",
-      "value": "2349066528353,2347043759577"
-    },
-    "OPENAI_API_KEY": {
-      "description": "put your OPENAI api key here.Get it from beta.openai.com ",
-      "value": "",
-      "required": false
-    },
-    "ELEVENLAB_API_KEY": {
-      "description": "Put your ElevenLab api key",
-      "value": "",
-      "required": false
-    },
-    "REMOVE_BG_KEY": {
-      "description": "put your REMOVE BG KEY here",
-      "value": "",
-      "required": false
-    },
-    "MODE": {
-      "description": "public or private",
-      "value": "private"
-    },
-    "PACK_NAME": {
-      "description": "Put Sticker Pack_Name.",
-      "value": "QUEEN_ANITA-V2",
-      "required": false
-    },
-    "PACK_AUTHER": {
-      "description": "Put Sticker Author_Name.",
-      "value": "",
-      "required": false
-    }
-  },
-  "buildpacks": [
-    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
-    { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "basic"
-    }
+    "addons": [{ "plan": "heroku-postgresql:basic" }],
+    "buildpacks": [
+      { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
+      { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
+    ]
   }
-}
-
