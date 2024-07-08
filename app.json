@@ -124,7 +124,7 @@
     },
     "MODE": {
       "description": "public or private",
-      "value": "Public"
+      "value": "Private"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
