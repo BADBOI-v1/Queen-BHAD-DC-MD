@@ -12,14 +12,14 @@ global.sudo = process.env.SUDO
   : "null";
 global.owner = process.env.OWNER_NUMBER
   ? process.env.OWNER_NUMBER.replace(/[\s+]/g, "")
-  : "2349066528353";
+  : "233591856630";
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
-  "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg,https://telegra.ph/file/7275967ae7b5283fada69.jpg";
+  "https://wa.me/233591856630";
 global.userImages =
   process.env.USER_IMAGES ||
-  "https://telegra.ph/file/7275967ae7b5283fada69.jpg,https://telegra.ph/file/c3049cd3ac77f371e119e.jpg,https://telegra.ph/file/a22200a780671e0e32383.jpg,https://telegra.ph/file/85fe388fdd14930cf86a0.jpg,https://telegra.ph/file/ba9ced500f9eca7db8acb.mp4";
+  "https://wa.me/233591856630";
 ///===========[global iMPORTS]====================//
 
 module.exports = {
@@ -53,8 +53,8 @@ global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/DeeCeeXxx/QUEEN_Anita-V2";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
+global.gurl = process.env.GURL || "https://whatsapp.me/233591856630";
+global.website = process.env.GURL || "https://whatsapp.me/233591856630";
 global.devs = "2349066528353";
 global.msg_style = process.env.STYLE || "4";
 global.session_reset = process.env.SS_RESET || "false";
