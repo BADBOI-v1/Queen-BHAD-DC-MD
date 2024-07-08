@@ -5,7 +5,6 @@
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
-    "build": "[my-framework] build --output public"
       "run": "pm2 start . --deep-monitoring --attach --name AstroPatch || node .",
       "asta": "pm2 start . --deep-monitoring --attach --name AstroPatch || node .",
       "start": "pm2 start . --attach --name AstroPatch",
