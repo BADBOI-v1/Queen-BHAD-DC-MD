@@ -46,7 +46,7 @@ try {
         let commits = await DB.syncgit();
         if (commits.total === 0)
           return await citel.reply(
-            `*RIAS_GREMORY-BOT IS RUNNING ON LATEST\nPATCHES\nFIXES\UPGRADES*`
+            `*QUEEN_ANITA-V2 IS RUNNING ON LATEST\nPATCHES\nFIXES\UPGRADES*`
           );
         let update = await DB.sync();
         await citel.bot.sendMessage(
