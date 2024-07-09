@@ -94,7 +94,7 @@ smd(
         return await _0xd700b1.send(
           "*_provide text to update profile status!_*\n*_Example: " +
             prefix +
-            "bio QUEEN_ANITA-V2_*"
+            "bio Asta Md_*"
         );
       }
       await _0xd700b1.bot.updateProfileStatus(_0xb45f41);
@@ -393,7 +393,7 @@ cmd(
         return _0xcffaeb.reply(
           "Please Give Me User Name, \n *Example : " +
             prefix +
-            "vcard QUEEN_ANITA-V2 Tech Info* "
+            "vcard Asta Tech Info* "
         );
       }
       var _0x423556 = _0x4158fc.split(" ");
