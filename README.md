@@ -29,11 +29,11 @@
 
 ### 2. GET SESSION ID HERE (PAIR CODE) 
 
-<a href='https://anita-sessionbeta.onrender.com/pair' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+<a href='https://davidcyril-session-id-generator-1.onrender.com/pair' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 ### 3. GET SESSION ID HERE (QR CODE) 
 
-<a href='https://anita-sessionbeta.onrender.com/wasiqr ' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+<a href='https://davidcyril-session-id-generator-1.onrender.com/wasiqr ' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 
 ### DEPLOY ON SCALINGO
