@@ -125,15 +125,3 @@ SUPPORT CHANNEL: <a href="[https://whatsapp.com/channel/0029VafEBFXhttps://whats
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
   
-## HELPERS
-
-<a href="https://github.com/astrofx0011"><img src="https://github.com/astrofx0011.png?size=100" width="130" height="100"></a> | [<img src="https://github.com/Itxxwasi.png?size=100" width="100" height="100">](https://github.com/Itxxwasi) 
----|---
-[Astrofx](https://github.com/astrofx0011)  | [Wasi](https://github.com/itxxwasi)
-Plugins | Bug Fixer & Help |
-
-
-### Please Give One Star ✨ & [follow me notify my updates 💗](https://github.com/DeeCeeXxx)
-<b>Version -> 2.0.0</b>
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
