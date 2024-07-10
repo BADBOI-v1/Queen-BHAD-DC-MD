@@ -31,20 +31,20 @@
 
 ### SERVER 1 (DON'T SPAM SERVER) 
 
-### GET SESSION ID HERE (PAIR CODE) 
+### (PAIR CODE) 
 
 <a href='https://anita-server-1.onrender.com/pair' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
-###  GET SESSION ID HERE (QR CODE) 
+### (QR CODE) 
 
 <a href='https://anita-server-1.onrender.com/wasiqr' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 ### SERVER 2 (DON'T SPAM SERVER) 
-### GET SESSION ID HERE (PAIR CODE) 
+### (PAIR CODE) 
 
 <a href='https://queen-anita-server-2.onrender.com/pair' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
-### 3. GET SESSION ID HERE (QR CODE) 
+### (QR CODE) 
 
 <a href='https://queen-anita-server-2.onrender.com/wasiqr)' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
