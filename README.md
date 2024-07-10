@@ -27,13 +27,28 @@
 
 <a href='https://github.com/DeeCeeXxx/Queen_Anita-V2/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
-### 2. GET SESSION ID HERE (PAIR CODE) 
+### 2. NEW SESSION ID METHOD
 
-<a href='https://davidcyril-session-id-generator-5pgo.onrender.com/pair' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+### SERVER 1 (DON'T SPAM SERVER) 
+
+### GET SESSION ID HERE (PAIR CODE) 
+
+<a href='https://anita-server-1.onrender.com/pair' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+
+###  GET SESSION ID HERE (QR CODE) 
+
+<a href='https://anita-server-1.onrender.com/wasiqr' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+
+### SERVER 2 (DON'T SPAM SERVER) 
+### GET SESSION ID HERE (PAIR CODE) 
+
+<a href='https://queen-anita-server-2.onrender.com/pair' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 ### 3. GET SESSION ID HERE (QR CODE) 
 
-<a href='https://davidcyril-session-id-generator-5pgo.onrender.com/wasiqr' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+<a href='https://queen-anita-server-2.onrender.com/wasiqr)' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+
+**PLEASE PICK RANDOMLY DON'T SPAM A PARTICULAR SERVER**
 
 
 ### DEPLOY ON SCALINGO
