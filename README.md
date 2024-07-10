@@ -36,17 +36,12 @@
 <a href='https://anita-server-1.onrender.com/pair' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 ### (QR CODE) 
-
 <a href='https://anita-server-1.onrender.com/wasiqr' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 ### SERVER 2 (DON'T SPAM SERVER) 
 ### (PAIR CODE) 
 
-<a href='https://queen-anita-server-2.onrender.com/pair' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
-
-### (QR CODE) 
-
-<p align="center"> <a href='https://queen-anita-server-2.onrender.com/wasiqr)' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+<a href='https://queen-anita-server-2.onrender.com/pair' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>   *(QR CODE)* <p align="center"> <a href='https://queen-anita-server-2.onrender.com/wasiqr)' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 **PLEASE PICK RANDOMLY DON'T SPAM A PARTICULAR SERVER**
 
