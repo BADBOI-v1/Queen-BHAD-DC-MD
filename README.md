@@ -33,7 +33,7 @@
 
 ### 3. GET SESSION ID HERE (QR CODE) 
 
-<a 'https://davidcyril-session-id-generator-5pgo.onrender.com/wasiqr' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+<a href='https://davidcyril-session-id-generator-5pgo.onrender.com/wasiqr' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 
 ### DEPLOY ON SCALINGO
