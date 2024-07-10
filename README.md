@@ -39,6 +39,8 @@
 
 <a href='https://anita-server-1.onrender.com/wasiqr' target="_blank"><img alt='QR CODE' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
+<p align='center'>
+
 ### SERVER 2 (DON'T SPAM SERVER) 
 ### (PAIR CODE) 
 
