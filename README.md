@@ -44,12 +44,6 @@
 ### **PLEASE PICK RANDOMLY DON'T SPAM A PARTICULAR SERVER**
 
 
-### DEPLOY ON SCALINGO
-
-1. If you don't have an account in Scalingo, create one and deploy.
-    <br>
-    <a href='https://auth.scalingo.com/users/sign_in' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=scalingo&logoColor=white'/></a>
-
 ### DEPLOY ON RENDER
 
 1. If you don't have an account in RENDER, create one and deploy.
