@@ -6,7 +6,7 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "davidcyril209@gmail.com";
+global.email = "Smith712233@gmail.com";
 global.location = "Johannesburg,south Africa";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://herrison:wells@cluster0.tqhtuou.mongodb.net/?retryWrites=true&w=majority";
 global.allowJids = process.env.ALLOW_JID || "null";
