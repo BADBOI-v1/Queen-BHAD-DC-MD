@@ -39,7 +39,7 @@ smd(
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `ERRORS WITH REPO COMMAND THIS IS NEW REPO \n\n *REPO:*https://github.com/DeeCeeXxx/Queen_Anita-V2\n\n ${Config.botname} *WORKS*`;
+    const SupportMsg = `*SUPPORT DAVID CYRIL*\n\n OPay Bank: OPay Digital Services Limited(OPay)\n\n OPay Account: 9066528353\n\n *Support The Developer*2\n\n ${Config.botname} *David*`;
 
     const contextInfo = {
       forwardingScore: 999,

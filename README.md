@@ -29,13 +29,13 @@
 
 ### 2. GET SESSION ID HERE
 
-### SERVER 1 (DON'T SPAM SERVER) 
+### SERVER 1
  
-<a href="https://anita-server-1.onrender.com/pair"><img src="https://img.shields.io/badge/PAIR_CODE-red" alt="Click Here to Get Pair-Code" width="110"></a>   
+<a href="https://anita-server-1.onrender.com/pair"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
 
 <a href="https://anita-server-1.onrender.com/wasiqr"><img src="https://img.shields.io/badge/QR CODE-green" alt="Click Here to Get QR-Code" width="90"></a>
 
-### SERVER 2 (DON'T SPAM SERVER) 
+### SERVER 2 
 ### GET SESSION ID HERE
 
 <a href="https://queen-anita-server-2.onrender.com/pair"><img src="https://img.shields.io/badge/PAIR CODE-red" alt="Click Here to Get Pair-Code" width="110"></a>   
@@ -43,12 +43,6 @@
 <a href="https://queen-anita-server-2.onrender.com/wasiqr"><img src="https://img.shields.io/badge/QR CODE-blue" alt="Click Here to Get QR-Code" width="90"></a>
 ### **PLEASE PICK RANDOMLY DON'T SPAM A PARTICULAR SERVER**
 
-
-### DEPLOY ON SCALINGO
-
-1. If you don't have an account in Scalingo, create one and deploy.
-    <br>
-    <a href='https://auth.scalingo.com/users/sign_in' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=scalingo&logoColor=white'/></a>
 
 ### DEPLOY ON RENDER
 
