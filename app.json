@@ -9,7 +9,7 @@
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Queen_Anita-V2",
+        "value": "RYAN 🇺🇬 ",
         "required": true
       },
   
@@ -40,12 +40,12 @@
       "BOT_NAME": {
         "description": " NAME FOR BOT",
         "required": false,
-        "value": "Queen_Anita-V2"
+        "value": "RYAN-MD"
       },
       "TZ": {
         "description": "Put TIME_ZONE according to your location",
         "required": false,
-        "value": "Africa/Lagos"
+        "value": "Africa/KAMPALA "
       },
       "READ_COMMAND": {
         "description": " Read bot cmds",
@@ -103,15 +103,15 @@
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "2349066528353"
+        "value": "256742810290 "
       },
       "SESSION_ID": {
-        "description": "put your SESSION_ID here.",
-        "value": ""
+        "description": "put your SESSION_ID here. ",
+        "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0JFSDJrcnlOYk8xWS9tODJ1NTdoa3J6bTFQME9jcDMvSlduYUE0aFNIQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUjBiQ1FRcUU1MkxoYVkyUHhBRzBzWXdRaG1wdC9PSXpoNzBGdDd3RnZrYz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxSnR1c2h2Sk9DMUxGU2E2aUROYi82NXNZYzZSejk5MkJpWVNXYkJPc0hjPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJNY0RNTHFsNU1ueWRXaHVPOXFCbHI0ekNXdkovTTZMem05OWQxVDJTc3dRPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImdIcjU4ZVgxZVV1MEdIZVcrTDZVM1lOblFMVHJNSGZjWXNVSFRFU2NQVzA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkpVV1NDWmVSNHNTMWx0K1dTNnpsdW9waHRLV3RjUEwwWTI1RzZqcUJDQ1k9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidUYzT3M4Yzc2eVFqTGk0K3VxUFpJNDA5SE5xc2k1bkRQcHhIVFBtMWdtTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK1orLzRYN003QzVQVVhHbm1zdEt3S2hXSHZ6UWt3dUM5bnV0djVBZ2Z4RT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ing2dHJvSm81UWF4TzZwM2RxbzcxWDNCRWthU2hVamUzY2YxKzV2U0pRUTdlWVJheHZVZWZOM2tkWnhnV0ZIWXU0cEVuOUpQT202eC9XeUw2bzdhTEJnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjEsImFkdlNlY3JldEtleSI6IlUyM3VXbnBQaEg1bkZYYmRid3ZLWmZyMWkrZmJqU3Bmb2hVak1ZM0VqMXM9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IjZWU054MmVTU3ZpSDZ0VnBpSkpzc2ciLCJwaG9uZUlkIjoiNjIxYjQ0NmEtN2RmNS00NTdmLWEyNzItNDI1MjFhODIxZDU2IiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ijd0ZTQ3d0kxMXdjUjNUMFYrVFFqUEFwRDdlND0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJWOWRKNjdjbkhFU29xMFJLdC9JUGJqNXVXV0U9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiOTVaU1AyWkQiLCJtZSI6eyJpZCI6IjI1Njc2NTE4ODg2MzoxM0BzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJSWUFOIElOVEVSTkFUSU9OQUwifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ042MW9xc0JFTVR3MDdRR0dBb2dBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IlFvTnU2cHNVWFo2aVJEMkx6RTZheE9DYWIweEg0Um5MNEpOWmhyL3FsQjA9IiwiYWNjb3VudFNpZ25hdHVyZSI6ImRLc2JHZ3BOaVludXpTMTEvM1owS0lGMUFKRUg4TXNlRGMxRU91NnlaSEcybGorTGFRMzhBUWsxT2FDNEU4eFNWV3NoMkFHMGV5S0lKV2FiNzhQZURRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJsSEdTNlI5VTFGcG1yQURicU1LclA3SDNHcTdGMnB1SFp1TW51K3RiT1V1QjdORGk3bURkZTVxZDR3U1pUcnlvaUF1NTJ6L3RFQjB2azh2SVZEcFRCdz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1Njc2NTE4ODg2MzoxM0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJVS0RidXFiRkYyZW9rUTlpOHhPbXNUZ21tOU1SK0VaeStDVFdZYS82cFFkIn19XSwicGxhdGZvcm0iOiJzbWJhIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIxMDM4OTI5fQ=="
       },
       "MODE": {
         "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-        "value": "public"
+        "value": "private"
       },
       "PACK_NAME": {
         "description": "Put Sticker Pack_Name.",
