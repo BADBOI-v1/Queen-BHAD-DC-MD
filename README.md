@@ -119,7 +119,7 @@ yarn install
 echo "SESSION_ID : ENTER YOUR SESSION ID HERE" > config.env
 ```
 ```
-pm2 start . --name Itxxwasi --attach --time
+pm2 start . --name Itxxwasi --attach --time```
 
 <br>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
