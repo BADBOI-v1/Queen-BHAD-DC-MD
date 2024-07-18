@@ -56,6 +56,39 @@
 1. If you don't have an account in Clever Cloud, create one and deploy.
     <br>
     <a href='https://api.clever-cloud.com/v2/sessions/signup?subscription_source=cta-home-signup' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=clever-cloud&logoColor=white'/></a>
+    
+#### COPY THESE COMMANDS AND PASTE IF YOU TRYING TO DEPLOY [WASI MD V2](https://github.com/Itxxwasi/WASI-MD-V2) ON ANY TERMINAL
+```
+sudo apt -y update && sudo apt -y upgrade
+```
+```
+sudo apt -y install git ffmpeg curl
+```
+```
+curl -fsSL https://deb.nodesource.com/setup_20.x -o nodesource_setup.sh
+```
+```
+sudo -E bash nodesource_setup.sh
+```
+```
+sudo apt-get install -y nodejs
+```
+```
+sudo npm install -g yarn
+```
+```
+sudo yarn global add pm2
+```
+```
+git clone https://github.com/DeeCeeXxxx/Queen_Anita-V2 DeeCeeXxx
+cd DeeCeeXxx
+yarn install
+```
+```
+echo "SESSION_ID : ENTER YOUR SESSION ID HERE" > config.env
+```
+```
+pm2 start . --name Itxxwasi --attach --time
 
 ### DEPLOY ON HEROKU
 
