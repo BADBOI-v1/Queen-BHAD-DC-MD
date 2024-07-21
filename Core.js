@@ -473,7 +473,7 @@ function updateStatus() {
   // ㅤㅤ〄ㅤㅤ〘 BELUGA-BOT BETA EDITION 〙ㅤㅤ〄ㅤㅤㅤㅤ
   // ㅤㅤㅤ〘ㅤ Auto Uptime: ${uptimeFormatted}ㅤ〙`;
 
-  function _0x582b(_0xabb6f8,_0x12cdd8){const _0x58e890=_0x58e8();return _0x582b=function(_0x582b90,_0x4387b3){_0x582b90=_0x582b90-0x189;let _0x932613=_0x58e890[_0x582b90];return _0x932613;},_0x582b(_0xabb6f8,_0x12cdd8);}function _0x58e8(){const _0x109554=['12896370RDSmnX','3BgvPel','189HbmdoW','18854HvEPNh','11TZHUID','9125326EcyeIg','464328lPaAMf','3400722cbWEOK','2263175KIczdo','12TaHNqM','2521564eqJRHK'];_0x58e8=function(){return _0x109554;};return _0x58e8();}(function(_0x429d7b,_0x532ab5){const _0x527567=_0x582b,_0x130eb4=_0x429d7b();while(!![]){try{const _0x75c57a=-parseInt(_0x527567(0x18b))/0x1+-parseInt(_0x527567(0x192))/0x2*(-parseInt(_0x527567(0x189))/0x3)+parseInt(_0x527567(0x191))/0x4*(-parseInt(_0x527567(0x190))/0x5)+-parseInt(_0x527567(0x18f))/0x6+parseInt(_0x527567(0x18d))/0x7+parseInt(_0x527567(0x18e))/0x8*(-parseInt(_0x527567(0x18a))/0x9)+parseInt(_0x527567(0x193))/0xa*(parseInt(_0x527567(0x18c))/0xb);if(_0x75c57a===_0x532ab5)break;else _0x130eb4['push'](_0x130eb4['shift']());}catch(_0x19ea04){_0x130eb4['push'](_0x130eb4['shift']());}}}(_0x58e8,0xa8dae));const status='\x0a\x20          \x20『•• \x20Queen-\x20Anita\x20-V2\x20 ••』       \x0a\x20\x20ㅤㅤㅤ〘ㅤ\x20🐦 Auto\x20Uptime:\x20'+uptimeFormatted+'ㅤ〙';
+  function _0x582b(_0xabb6f8,_0x12cdd8){const _0x58e890=_0x58e8();return _0x582b=function(_0x582b90,_0x4387b3){_0x582b90=_0x582b90-0x189;let _0x932613=_0x58e890[_0x582b90];return _0x932613;},_0x582b(_0xabb6f8,_0x12cdd8);}function _0x58e8(){const _0x109554=['12896370RDSmnX','3BgvPel','189HbmdoW','18854HvEPNh','11TZHUID','9125326EcyeIg','464328lPaAMf','3400722cbWEOK','2263175KIczdo','12TaHNqM','2521564eqJRHK'];_0x58e8=function(){return _0x109554;};return _0x58e8();}(function(_0x429d7b,_0x532ab5){const _0x527567=_0x582b,_0x130eb4=_0x429d7b();while(!![]){try{const _0x75c57a=-parseInt(_0x527567(0x18b))/0x1+-parseInt(_0x527567(0x192))/0x2*(-parseInt(_0x527567(0x189))/0x3)+parseInt(_0x527567(0x191))/0x4*(-parseInt(_0x527567(0x190))/0x5)+-parseInt(_0x527567(0x18f))/0x6+parseInt(_0x527567(0x18d))/0x7+parseInt(_0x527567(0x18e))/0x8*(-parseInt(_0x527567(0x18a))/0x9)+parseInt(_0x527567(0x193))/0xa*(parseInt(_0x527567(0x18c))/0xb);if(_0x75c57a===_0x532ab5)break;else _0x130eb4['push'](_0x130eb4['shift']());}catch(_0x19ea04){_0x130eb4['push'](_0x130eb4['shift']());}}}(_0x58e8,0xa8dae));const status='\x0a\x20          \x20『•• \x20Bᴇʟᴜɢᴀ-\x20Bᴏᴛ\x20-Mᴅ\x20 ••』       \x0a\x20\x20ㅤㅤㅤ〘ㅤ\x20🐦 Auto\x20Uptime:\x20'+uptimeFormatted+'ㅤ〙';
 
   A17.setStatus(status); // Set the status using A17.setStatus or your equivalent method
 
@@ -766,7 +766,7 @@ if (responses.hasOwnProperty(smallinput)) {
     A17.sendMessage(from, { react: { text: "🐦" , key: m.key }})
     
     let { data } = await axios.get('https://api.github.com/repos/ahil15/BelugaBot-MD');
-    teks = `*QUEEN_ANITA-V2*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/DeeCeeXxx/Queen_Anita-V2\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
+    teks = `*Beluga-Bot Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/ahil15/BelugaBot-MD\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
   /*  let buttons = [
     {buttonId: `${prefix}owner`, buttonText: {displayText: '🍁 DEVELOPER 🍁'}, type: 1}
     ] */
@@ -778,7 +778,7 @@ if (responses.hasOwnProperty(smallinput)) {
     buttons: buttons,
     headerType: 4, */
     contextInfo:{externalAdreply:{
-    title:"Powered by David Cyril",
+    title:"Powered by Slasher",
     body: " ", 
     thumbnail: fs.readFileSync("Assets/pic1.jpg"),
     mediaType:1,
@@ -799,7 +799,7 @@ if (responses.hasOwnProperty(smallinput)) {
       if (isBanChat) return reply(mess.bangc);
 
       A17.sendMessage(from, { react: { text: "💫" , key: m.key }})
-    reply(`⚙ *My developer's group:* ⚙ https://chat.whatsapp.com/KLu7a2r4bc4JFV8s5epvsF`)
+    reply(`⚙ *My developer's group:* ⚙ https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk`)
     }
     break;
     
@@ -809,7 +809,7 @@ case 'repo': case 'botrepo': {
   if (isBanChat) return reply(mess.bangc);
   
   A17.sendMessage(from, { react: { text: "💫" , key: m.key }})
-    reply(`⚙ My Source Code is </> - https://github.com/DeeCeeXxx/Queen_Anita-V2`)
+    reply(`⚙ My Source Code is </> - https://github.com/ahil15/BelugaBot-MD`)
     }
     break;
 
@@ -895,7 +895,7 @@ case 'repo': case 'botrepo': {
         if (!isCreator) return reply(mess.owner)
         await A17.sendMessage(from, { react: { text: "⚠️" , key: m.key }})
 
-        reply(`QUEEN_ANITA-V2 is shutting down!`)
+        reply(`BelugaBot-MD  is shutting down!`)
         await sleep(5000)
         process.exit()
         break;
@@ -921,7 +921,7 @@ case 'repo': case 'botrepo': {
         
         A17.sendMessage(from, { react: { text: "🫡" , key: m.key }})
         A17.public = false
-        reply('QUEEN_ANITA-V2 is now private!')
+        reply('BelugaBot-MD is now private!')
         A17.setStatus(`Mode : Self`)
         }
         break;
@@ -994,7 +994,7 @@ A17.sendMessage(from, { react: { text: '❤', key: m.key }});
     const systemName = os.platform() + ' ' + os.release();
   
     const respon = `
-  🤖 *QUEEN_ANITA-V2 Server Info* 🤖
+  🤖 *BelugaBot Server Info* 🤖
   
   *System*: ${systemName}
   
@@ -2031,7 +2031,7 @@ case 'nsfwmenu':
   if (!AntiNsfw) return reply(mess.nonsfw);
   if (!m.isGroup) return reply(mess.grouponly);
   A17.sendMessage(from, { react: { text: "⚠️" , key: m.key }})
- let nsfwl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
+ let nsfwl ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
  const nsfwmenu = ` 
 ┌──『•• 🍒 *ɴꜱꜰᴡʟɪꜱᴛ* 🍒 ••』───◈
 │╭────────────···▸▸
@@ -2068,10 +2068,10 @@ A17.sendMessage(m.chat, {
                 contextInfo: {
                 mentionedJid:[m],
                 externalAdReply: {
-                title: "QUEEN_ANITA-V2",
+                title: "BelugaBot-MD",
                 body: "Best WhatsApp Bot",
                 thumbnailUrl: nsfwl,
-                sourceUrl: 'https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L',
+                sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
                 mediaType: 1,
                 renderLargerThumbnail: true
                 }}})
@@ -2635,7 +2635,7 @@ break;
 case 'ghprofile': case 'githubstalk': case'github': {
   A17.sendMessage(from, { react: { text: "🔍" , key: m.key }})
 
-  if (!q) return reply(`Give me a user name like *${prefix}github DeeCeeXxx*`)
+  if (!q) return reply(`Give me a user name like *${prefix}github ahil15*`)
 
   gitdata = await githubstalk.githubstalk(`${q}`)
   A17.sendMessage(m.chat, { image: { url : gitdata.profile_pic }, caption: 
@@ -2673,7 +2673,7 @@ if (isBanChat) return reply(mess.bangc);
 A17.sendMessage(from, { react: { text: "🫡" , key: m.key }})
 
 let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v)
-let teks = ` 「  QUEEN_ANITA-V2 pm user list  」\n\nTotal ${anu.length} users are using QUEEN_ANITA-V2 in personal chat.`
+let teks = ` 「  BelugaBot pm user list  」\n\nTotal ${anu.length} users are using BelugaBot in personal chat.`
 for (let i of anu) {
 teks += `\n\nProfile : @${i.id.split('@')[0]}\nChat : ${i.unreadCount}\nLastchat : ${moment(i.conversationTimestamp * 1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`
 }
@@ -2688,7 +2688,7 @@ if (isBanChat) return reply(mess.bangc);
 A17.sendMessage(from, { react: { text: "🫡" , key: m.key }})
 
 let anu = await store.chats.all().filter(v => v.id.endsWith('@g.us')).map(v => v.id)
-let teks = ` 「  QUEEN_ANITA-V2 Group User List  」\n\nTotal ${anu.length} users are using QUEEN_ANITA-V2 in Groups.`
+let teks = ` 「  BelugaBot group user list  」\n\nTotal ${anu.length} users are using BelugaBot in Groups.`
 for (let i of anu) {
 let metadata = await A17.groupMetadata(i)
 if (metadata.owner === "undefined") {
@@ -3684,7 +3684,7 @@ case 'invite': {
   if (!isAdmins && !isCreator) return reply(mess.useradmin)
   A17.sendMessage(from, { react: { text: "🫡" , key: m.key }})
   
-if (!text) return reply (`Enter the number you want to invite to the group...\n\nExample :\n*${prefix + command}* 2347043759577`)
+if (!text) return reply (`Enter the number you want to invite to the group...\n\nExample :\n*${prefix + command}* 8801853262586`)
 if (text.includes('+')) return reply(`Enter the number together without *+*`)
 if (isNaN(text)) return reply(`Enter only the numbers plus your country code without spaces`)
 let group = m.chat
@@ -4242,7 +4242,7 @@ reply(mess.waiting)
        if (/1917/.test(command)) link = 'https://textpro.me/1917-style-text-effect-online-980.html'
        if (/leaves/.test(command)) link = 'https://textpro.me/natural-leaves-text-effect-931.html'
        let anu = await maker.textpro(link, q)
-          A17.sendMessage(m.chat, { image: { url: anu }, caption: `Made by QUEEN_ANITA-V2...  🪄` }, { quoted: m })
+          A17.sendMessage(m.chat, { image: { url: anu }, caption: `Made by Slasher...  🪄` }, { quoted: m })
        }
 
 break;
@@ -5165,7 +5165,7 @@ reply(mess.waiting)
 const { lyrics, lyricsv2 } = require('@bochilteam/scraper')
 const result = await lyricsv2(text).catch(async _ => await lyrics(text))
 reply(`
-*Bot-Name :* QUEEN_ANITA-V2
+*Bot-Name :* Bᴇʟᴜɢᴀ-Bᴏᴛ
 *Title :* ${result.title}
 *Author :* ${result.author}
 *Url :* ${result.link}
@@ -5353,7 +5353,7 @@ case 'swm': case 'take': case 'stickerwm': case 'steal':{
   if (isBanChat) return reply(mess.bangc);
 A17.sendMessage(from, { react: { text: "🫡" , key: m.key }})
 
-if (!args.join(" ")) return reply(`Like use -take QUEEN_ANITA-V2`)
+if (!args.join(" ")) return reply(`Like use -take Bᴇʟᴜɢᴀ-Bᴏᴛ `)
 const swn = args.join(" ")
 const pcknm = swn.split("|")[0];
 const atnm = swn.split("|")[1];
@@ -5493,7 +5493,7 @@ case 'beautifulcheck':
   if (isBanChat) return reply(mess.bangc);
   A17.sendMessage(from, { react: { text: "😺" , key: m.key }})
   
-      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨Nᴏᴛ David Cyril ™`)
+      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨Nᴏᴛ Sʟᴀꜱʜᴇʀ'ꜱ ᵃʳᶜ⁩`)
         const can = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
         const tik = can[Math.floor(Math.random() * can.length)]
 A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${tik}%*` }, { quoted: m })
@@ -5514,7 +5514,7 @@ case 'greatcheck':
                       if (isBanChat) return reply(mess.bangc);
   A17.sendMessage(from, { react: { text: "😺" , key: m.key }})
   
-      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨Nᴏᴛ David Cyril ™`)
+      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨Nᴏᴛ Sʟᴀꜱʜᴇʀ'ꜱ ᵃʳᶜ⁩`)
         const sangeh = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
         const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
 A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
@@ -6693,7 +6693,7 @@ break;
         if (isBan) return reply(mess.banned);	 			
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "📕" , key: m.key }})
-let corel ='https://i.imgur.com/H4qeXwa.jpeg'
+let corel ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
   const coremenu = ` 
 ┌──❖
 │Hi 👤
@@ -6701,7 +6701,7 @@ let corel ='https://i.imgur.com/H4qeXwa.jpeg'
 ┌┤✑   Nᴏᴡ-ᴛɪᴍᴇ : ${nowtime} 
 │└────────────┈ ●
 │
-└── > *QUEEN_ANITA-V2* 
+└── > *BᴇʟᴜɢᴀBᴏᴛ-MD* 
 ┌
 │▸  Oᴡɴᴇʀ : ${global.OwnerName} 🙋
 │▸  Pʀᴇꜰɪx : 『  ${prefix} 』 💡
@@ -6730,10 +6730,10 @@ let corel ='https://i.imgur.com/H4qeXwa.jpeg'
                 contextInfo: {
                 mentionedJid:[m],
                 externalAdReply: {
-                title: "QUEEN_ANITA-V2",
+                title: "BelugaBot-MD",
                 body: "Best WhatsApp Bot",
                 thumbnailUrl: corel,
-                sourceUrl: 'https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L',
+                sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
                 mediaType: 1,
                 renderLargerThumbnail: true
                 }}})
@@ -6743,7 +6743,7 @@ let corel ='https://i.imgur.com/H4qeXwa.jpeg'
         if (isBan) return reply(mess.banned);	 			
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "📕" , key: m.key }})
-let ownerl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
+let ownerl ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
   const ownermenu = ` 
 ┌──❖
 │Hi 👤
@@ -6751,7 +6751,7 @@ let ownerl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
 ┌┤✑   Nᴏᴡ-ᴛɪᴍᴇ : ${nowtime} 
 │└────────────┈ ●
 │
-└── > *QUEEN_ANITA-V2* 
+└── > *BᴇʟᴜɢᴀBᴏᴛ-MD* 
 ┌
 │▸  Oᴡɴᴇʀ : ${global.OwnerName} 🙋
 │▸  Pʀᴇꜰɪx : 『  ${prefix} 』 💡
@@ -6786,10 +6786,10 @@ let ownerl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
                 contextInfo: {
                 mentionedJid:[m],
                 externalAdReply: {
-                title: "QUEEN_ANITA-V2",
+                title: "BelugaBot-MD",
                 body: "Best WhatsApp Bot",
                 thumbnailUrl: ownerl,
-                sourceUrl: 'https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L',
+                sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
                 mediaType: 1,
                 renderLargerThumbnail: true
                 }}})
@@ -6799,7 +6799,7 @@ let ownerl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
         if (isBan) return reply(mess.banned);	 			
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "📕" , key: m.key }})
-let groupl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
+let groupl ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
   const groupmenu = ` 
 ┌──❖
 │Hi 👤
@@ -6807,7 +6807,7 @@ let groupl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
 ┌┤✑   Nᴏᴡ-ᴛɪᴍᴇ : ${nowtime} 
 │└────────────┈ ●
 │
-└── > *QUEEN_ANITA-V2* 
+└── > *BᴇʟᴜɢᴀBᴏᴛ-MD* 
 ┌
 │▸  Oᴡɴᴇʀ : ${global.OwnerName} 🙋
 │▸  Pʀᴇꜰɪx : 『  ${prefix} 』 💡
@@ -6842,10 +6842,10 @@ let groupl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
                 contextInfo: {
                 mentionedJid:[m],
                 externalAdReply: {
-                title: "QUEEN_ANITA-V2",
+                title: "BelugaBot-MD",
                 body: "Best WhatsApp Bot",
                 thumbnailUrl: groupl,
-                sourceUrl: 'https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L',
+                sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
                 mediaType: 1,
                 renderLargerThumbnail: true
                 }}})
@@ -6888,10 +6888,10 @@ let aimel ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
                 contextInfo: {
                 mentionedJid:[m],
                 externalAdReply: {
-                title: "QUEEN_ANITA-V2",
+                title: "BelugaBot-MD",
                 body: "Best WhatsApp Bot",
                 thumbnailUrl: aimel,
-                sourceUrl: 'https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L',
+                sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
                 mediaType: 1,
                 renderLargerThumbnail: true
                 }}})
@@ -6902,7 +6902,7 @@ let aimel ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
         if (isBan) return reply(mess.banned);	 			
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "📕" , key: m.key }})
-let antil ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
+let antil ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
   const antilinkmenu = ` 
 ┌──❖
 │Hi 👤
@@ -6910,7 +6910,7 @@ let antil ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
 ┌┤✑   Nᴏᴡ-ᴛɪᴍᴇ : ${nowtime} 
 │└────────────┈ ●
 │
-└── > *QUEEN_ANITA-V2* 
+└── > *BᴇʟᴜɢᴀBᴏᴛ-MD* 
 ┌
 │▸  Oᴡɴᴇʀ : ${global.OwnerName} 🙋
 │▸  Pʀᴇꜰɪx : 『  ${prefix} 』 💡
@@ -6936,10 +6936,10 @@ let antil ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
                 contextInfo: {
                 mentionedJid:[m],
                 externalAdReply: {
-                title: "QUEEN_ANITA-V2",
+                title: "BelugaBot-MD",
                 body: "Best WhatsApp Bot",
                 thumbnailUrl: antil,
-                sourceUrl: 'https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L',
+                sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
                 mediaType: 1,
                 renderLargerThumbnail: true
                 }}})
@@ -6950,7 +6950,7 @@ let antil ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
         if (isBan) return reply(mess.banned);	 			
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "📕" , key: m.key }})
-let economyl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
+let economyl ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
   const economymenu = ` 
 ┌──❖
 │Hi 👤
@@ -6958,7 +6958,7 @@ let economyl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
 ┌┤✑   Nᴏᴡ-ᴛɪᴍᴇ : ${nowtime} 
 │└────────────┈ ●
 │
-└── > *QUEEN_ANITA-V2* 
+└── > *BᴇʟᴜɢᴀBᴏᴛ-MD* 
 ┌
 │▸  Oᴡɴᴇʀ : ${global.OwnerName} 🙋
 │▸  Pʀᴇꜰɪx : 『  ${prefix} 』 💡
@@ -6985,10 +6985,10 @@ let economyl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
                 contextInfo: {
                 mentionedJid:[m],
                 externalAdReply: {
-                title: "QUEEN_ANITA-V2",
+                title: "BelugaBot-MD",
                 body: "Best WhatsApp Bot",
                 thumbnailUrl: economyl,
-                sourceUrl: 'https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L',
+                sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
                 mediaType: 1,
                 renderLargerThumbnail: true
                 }}})
@@ -7000,7 +7000,7 @@ let economyl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
         if (isBan) return reply(mess.banned);	 			
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "📕" , key: m.key }})
-let converterl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
+let converterl ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
   const convertmenu = ` 
 ┌──❖
 │Hi 👤
@@ -7008,7 +7008,7 @@ let converterl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
 ┌┤✑   Nᴏᴡ-ᴛɪᴍᴇ : ${nowtime} 
 │└────────────┈ ●
 │
-└── > *QUEEN_ANITA-V2* 
+└── > *BᴇʟᴜɢᴀBᴏᴛ-MD* 
 ┌
 │▸  Oᴡɴᴇʀ : ${global.OwnerName} 🙋
 │▸  Pʀᴇꜰɪx : 『  ${prefix} 』 💡
@@ -7033,10 +7033,10 @@ let converterl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
                 contextInfo: {
                 mentionedJid:[m],
                 externalAdReply: {
-                title: "QUEEN_ANITA-V2",
+                title: "BelugaBot-MD",
                 body: "Best WhatsApp Bot",
                 thumbnailUrl: converterl,
-                sourceUrl: 'https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L',
+                sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
                 mediaType: 1,
                 renderLargerThumbnail: true
                 }}})
@@ -7047,8 +7047,7 @@ let converterl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
         if (isBan) return reply(mess.banned);	 			
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "📕" , key: m.key }})
-let downloaderl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg
-'
+let downloaderl ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
   const downloadermenu = ` 
 ┌──❖
 │Hi 👤
@@ -7056,7 +7055,7 @@ let downloaderl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg
 ┌┤✑   Nᴏᴡ-ᴛɪᴍᴇ : ${nowtime} 
 │└────────────┈ ●
 │
-└── > *QUEEN_ANITA-V2* 
+└── > *BᴇʟᴜɢᴀBᴏᴛ-MD* 
 ┌
 │▸  Oᴡɴᴇʀ : ${global.OwnerName} 🙋
 │▸  Pʀᴇꜰɪx : 『  ${prefix} 』 💡
@@ -7100,10 +7099,10 @@ let downloaderl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg
                 contextInfo: {
                 mentionedJid:[m],
                 externalAdReply: {
-                title: "QUEEN_ANITA-V2",
+                title: "BelugaBot-MD",
                 body: "Best WhatsApp Bot",
                 thumbnailUrl: downloaderl,
-                sourceUrl: 'https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L',
+                sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
                 mediaType: 1,
                 renderLargerThumbnail: true
                 }}})
@@ -7114,7 +7113,7 @@ let downloaderl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg
         if (isBan) return reply(mess.banned);	 			
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "📕" , key: m.key }})
-let reactionl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
+let reactionl ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
   const reactionmenu = ` 
 ┌──❖
 │Hi 👤
@@ -7122,7 +7121,7 @@ let reactionl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
 ┌┤✑   Nᴏᴡ-ᴛɪᴍᴇ : ${nowtime} 
 │└────────────┈ ●
 │
-└── > *QUEEN_ANITA-V2* 
+└── > *BᴇʟᴜɢᴀBᴏᴛ-MD* 
 ┌
 │▸  Oᴡɴᴇʀ : ${global.OwnerName} 🙋
 │▸  Pʀᴇꜰɪx : 『  ${prefix} 』 💡
@@ -7165,10 +7164,10 @@ let reactionl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
                 contextInfo: {
                 mentionedJid:[m],
                 externalAdReply: {
-                title: "QUEEN_ANITA-V2",
+                title: "BelugaBot-MD",
                 body: "Best WhatsApp Bot",
                 thumbnailUrl: reactionl,
-                sourceUrl: 'https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L',
+                sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
                 mediaType: 1,
                 renderLargerThumbnail: true
                 }}})
@@ -7180,7 +7179,7 @@ let reactionl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
         if (isBan) return reply(mess.banned);	 			
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "📕" , key: m.key }})
-let miscl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
+let miscl ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
   const miscmenu = ` 
 ┌──❖
 │Hi 👤
@@ -7188,7 +7187,7 @@ let miscl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
 ┌┤✑   Nᴏᴡ-ᴛɪᴍᴇ : ${nowtime} 
 │└────────────┈ ●
 │
-└── > *QUEEN_ANITA-V2* 
+└── > *BᴇʟᴜɢᴀBᴏᴛ-MD* 
 ┌
 │▸  Oᴡɴᴇʀ : ${global.OwnerName} 🙋
 │▸  Pʀᴇꜰɪx : 『  ${prefix} 』 💡
@@ -7219,10 +7218,10 @@ let miscl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
                 contextInfo: {
                 mentionedJid:[m],
                 externalAdReply: {
-                title: "QUEEN_ANITA-V2",
+                title: "BelugaBot-MD",
                 body: "Best WhatsApp Bot",
                 thumbnailUrl: miscl,
-                sourceUrl: 'https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L',
+                sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
                 mediaType: 1,
                 renderLargerThumbnail: true
                 }}})
@@ -7233,7 +7232,7 @@ let miscl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
         if (isBan) return reply(mess.banned);	 			
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "📕" , key: m.key }})
-let gamesl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
+let gamesl ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
   const gamesmenu = ` 
 ┌──❖
 │Hi 👤
@@ -7241,7 +7240,7 @@ let gamesl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
 ┌┤✑   Nᴏᴡ-ᴛɪᴍᴇ : ${nowtime} 
 │└────────────┈ ●
 │
-└── > *QUEEN_ANITA-V2* 
+└── > *BᴇʟᴜɢᴀBᴏᴛ-MD* 
 ┌
 │▸  Oᴡɴᴇʀ : ${global.OwnerName} 🙋
 │▸  Pʀᴇꜰɪx : 『  ${prefix} 』 💡
@@ -7263,10 +7262,10 @@ let gamesl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
                 contextInfo: {
                 mentionedJid:[m],
                 externalAdReply: {
-                title: "QUEEN_ANITA-V2",
+                title: "BelugaBot-MD",
                 body: "Best WhatsApp Bot",
                 thumbnailUrl: gamesl,
-                sourceUrl: 'https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L',
+                sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
                 mediaType: 1,
                 renderLargerThumbnail: true
                 }}})
@@ -7276,7 +7275,7 @@ let gamesl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
         if (isBan) return reply(mess.banned);	 			
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "📕" , key: m.key }})
-let animel ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
+let animel ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
   const weebsmenu = ` 
 ┌──❖
 │Hi 👤
@@ -7284,7 +7283,7 @@ let animel ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
 ┌┤✑   Nᴏᴡ-ᴛɪᴍᴇ : ${nowtime} 
 │└────────────┈ ●
 │
-└── > *QUEEN_ANITA-V2* 
+└── > *BᴇʟᴜɢᴀBᴏᴛ-MD* 
 ┌
 │▸  Oᴡɴᴇʀ : ${global.OwnerName} 🙋
 │▸  Pʀᴇꜰɪx : 『  ${prefix} 』 💡
@@ -7324,10 +7323,10 @@ let animel ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
                 contextInfo: {
                 mentionedJid:[m],
                 externalAdReply: {
-                title: "QUEEN_ANITA-V2",
+                title: "BelugaBot-MD",
                 body: "Best WhatsApp Bot",
                 thumbnailUrl: animel,
-                sourceUrl: 'https://chat.whatsapp.com/KLu7a2r4bc4JFV8s5epvsF',
+                sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
                 mediaType: 1,
                 renderLargerThumbnail: true
                 }}})
@@ -7338,7 +7337,7 @@ let animel ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
         if (isBan) return reply(mess.banned);	 			
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "📕" , key: m.key }})
-let stalkerl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
+let stalkerl ='https://i.ibb.co/qYqxrt8/20231010-232658.png'
   const stalkermenu = ` 
 ┌──❖
 │Hi 👤
@@ -7346,7 +7345,7 @@ let stalkerl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
 ┌┤✑   Nᴏᴡ-ᴛɪᴍᴇ : ${nowtime} 
 │└────────────┈ ●
 │
-└── > *QUEEN_ANITA-V2* 
+└── > *BᴇʟᴜɢᴀBᴏᴛ-MD* 
 ┌
 │▸  Oᴡɴᴇʀ : ${global.OwnerName} 🙋
 │▸  Pʀᴇꜰɪx : 『  ${prefix} 』 💡
@@ -7376,10 +7375,10 @@ let stalkerl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
                 contextInfo: {
                 mentionedJid:[m],
                 externalAdReply: {
-                title: "QUEEN_ANITA-V2",
+                title: "BelugaBot-MD",
                 body: "Best WhatsApp Bot",
                 thumbnailUrl: stalkerl,
-                sourceUrl: 'https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L',
+                sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
                 mediaType: 1,
                 renderLargerThumbnail: true
                 }}})
@@ -7399,7 +7398,7 @@ let stalkerl ='https://telegra.ph/file/17c8ba84a7761eed633f6.jpg'
 ❒│▸  *Pʟᴜɢɪɴꜱ : 『 350 』*✨
 ❒│▸  *Pʀᴇꜰɪx : 『  ${prefix} 』*  💡
 ❒│▸  *Rᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}* 💻
-❒│▸ *Dᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ David Cyril* 🐉
+❒│▸ *Dᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ Sʟᴀꜱʜᴇʀ-Sᴇʀ* 🐉
 ┬│
 │╰───────────···▸▸
 └──────────────···▸▸▸
