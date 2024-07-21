@@ -51,7 +51,7 @@ const store = makeInMemoryStore({
 async function startA17() {
   console.log(
     color(
-      figlet.textSync("BelugaBot-MD", {
+      figlet.textSync("QUEEN_ANITA-V2", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -62,14 +62,14 @@ async function startA17() {
       "green"
     )
   );
-  console.log(color('\nHello, I am Slasher, the Developer of this bot.\n\nThanks for using: BelugaBot-MD.', 'aqua'))
+  console.log(color('\nHello, I am David Cyril, the Developer of this bot.\n\nThanks for using: QUEEN_ANITA-V2.', 'aqua'))
   console.log(color('\nYou can follow me on GitHub: ahil15', 'aqua'))
 
-  const { state, saveCreds } = await useMultiFileAuthState("./BELUGA-SESSION");
+  const { state, saveCreds } = await useMultiFileAuthState("./ANITA-SESSION");
   const A17 = A17Connect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["BelugaBot-MD", "Safari", "3.O"],
+    browser: ["QUEEN_ANITA-V2", "Safari", "3.O"],
     auth: state,
   });
 
@@ -258,7 +258,7 @@ A17.ev.on('group-participants.update', async (anu) => {
           A17text = `
 Hello @${WAuserName.split("@")[0]},
 
-I am *BelugaBot-MD*, Welcome to ${metadata.subject}.
+I am *QUEEN_ANITA-V2*, Welcome to ${metadata.subject}.
 
 *Group Description:*
 ${metadata.desc}
