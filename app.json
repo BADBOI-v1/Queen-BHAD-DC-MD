@@ -1,0 +1,26 @@
+
+{
+    "name": "QUEEN_ANITA-V2",
+    "description": "A whatsApp bot based on Baileysjs linrary (Ts+Js) with Multi Device support",
+    "repository": "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2",
+    "logo": "https://i.imgur.com/H4qeXwa.jpeg",
+    "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+    "env": {
+     "session id": {
+      "description": "Must put session ID.",
+      "required": true,
+      "value": ""
+    }
+    },
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+          }
+     ]
+}
