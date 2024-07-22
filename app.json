@@ -6,7 +6,7 @@
     "logo": "https://i.imgur.com/H4qeXwa.jpeg",
     "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
     "env": {
-     "session id": {
+     "sessID": {
       "description": "Must put session ID.",
       "required": true,
       "value": ""
