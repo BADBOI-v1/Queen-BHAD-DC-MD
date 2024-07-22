@@ -31,7 +31,7 @@ global.SupportGroupLink = "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L
 global.AuthorWhatsapp = "https://wa.me/2349066528353"; //Bot creator WhatsApp link,don't change or bot will not work.
 
 global.sessID = process.env.sessID || ``
-global.prefa = ["."]
+global.prefa = ["/"]
 
 //
 global.BotLogo = fs.readFileSync("./Assets/pic1.jpg");
