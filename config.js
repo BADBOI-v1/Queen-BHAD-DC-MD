@@ -30,8 +30,8 @@ global.SupportGroupLink = "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L
 //global.dbase = process.env.DBASE || "";//Mongodb here
 global.AuthorWhatsapp = "https://wa.me/2349066528353"; //Bot creator WhatsApp link,don't change or bot will not work.
 
-global.sessID = process.env.sessID || `{"noiseKey":{"private":{"type":"Buffer","data":"UIpvC3QeV0XhFbip1336ncXxmFYSLCYcKc3fgZeQblA="},"public":{"type":"Buffer","data":"wlomotgomjZi9YzNzEh2RGy4L8/la9+kHo+7y/f8AUY="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"aMJHwuxNye0p/31IEm/xbl8q3CLzdcIoRqzt83NnLEk="},"public":{"type":"Buffer","data":"8n8EU3w7zM8brH/kPSZpHFFJB5o7GteqAy0jnzwajA0="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"+I1UG39zWGWnMC3AXl9DnD2qZbucKXspD6MZAra4F38="},"public":{"type":"Buffer","data":"jzWs1OmGTIAa0qDf09KaR4FiGp58rZSFCisOSZ/xj0I="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"8K+dQEvKM1qb7EMFsovV1YnfM/502jJTWecuIwOkbnw="},"public":{"type":"Buffer","data":"HNicP9QctaV2S7jKpOfnXLM8y4aTR+BTpR63ZPeSKWg="}},"signature":{"type":"Buffer","data":"8Dy4P8goLemJo4JHYGi0CQ3yPZiEytKIQlADoJzdqpocuFtQvAQhTuOfwLMC1H1K6p5Q5nMecGBX92iSLPK8Cw=="},"keyId":1},"registrationId":194,"advSecretKey":"uxHwhSKtGS/suGdRGxFt+I/7IxVqWxGmeSFdU32GwLc=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"5ilw1AH_RA-mKpknCml_iw","phoneId":"a74d8e89-3c7b-416b-9db3-93bdfd2293bc","identityId":{"type":"Buffer","data":"uO67Zvr2eAXGw2B+RA8TfiXR5pI="},"registered":true,"backupToken":{"type":"Buffer","data":"yU3hIiAnkcuXE6ekXhSHql1DDrM="},"registration":{},"pairingCode":"1VR7M23Y","me":{"id":"2347033183262:11@s.whatsapp.net","lid":"37641680597162:11@lid"},"account":{"details":"CP68nOIHELPC/bQGGAEgACgA","accountSignatureKey":"tBUe8lnya1CIV/pkZHyTN0iF7PGi6nEKO0J3oTwx6CM=","accountSignature":"+ITSEaqmJRFcFOrw/XSV8TKP5XZhW4VLjhdJg2VQ9feFKnaNxQHgVrGubkyr/dKwLVQQiJbHLSf/N+ZorRRGCQ==","deviceSignature":"L9ZLvB1SV3LjpmhEtcLga43G/UxEp7wBmPHJ+OQ0T2t0t6ZGDW5jLDBJ8yf7wOyMlHishWYFe3n66pSUS8y3DA=="},"signalIdentities":[{"identifier":{"name":"2347033183262:11@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BbQVHvJZ8mtQiFf6ZGR8kzdIhezxoupxCjtCd6E8Megj"}}],"platform":"android","lastAccountSyncTimestamp":1721721142}`
-global.prefa = ["/"]
+global.sessID = process.env.sessID || ``
+global.prefa = ["."]
 
 //
 global.BotLogo = fs.readFileSync("./Assets/pic1.jpg");
@@ -78,3 +78,4 @@ global.mess = {
     nonsfw: 'Dont be a pervert,idiot! This is not a NSFW enabled group!'
     
 }
+ 
