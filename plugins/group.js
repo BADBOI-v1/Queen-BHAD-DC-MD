@@ -92,7 +92,7 @@ const {
        var _0x2fe2c7 = "" + _0x2608ab + _0x3a49e9;
        var _0x539d8f = {
          externalAdReply: {
-           title: "𝗦𝗨𝗛𝗔𝗜𝗟-𝗠𝗗",
+           title: "QUEEN_ANITA-V2",
            body: "" + _0x37b490,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -134,7 +134,7 @@ const {
        var _0x236a49 = _0x10288a + "-" + _0x436585.toString().padStart(2, "0") + "-" + _0x511884.toString().padStart(2, "0");
        var _0x56eaaf = {
          externalAdReply: {
-           title: "𝗦𝗨𝗛𝗔𝗜𝗟-𝗠𝗗",
+           title: "QUEEN_ANITA-V2",
            body: _0x5f4890.subject,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -863,7 +863,7 @@ const {
    await _0x8c602e.reply("\t❣️ *Matchmaking...* ❣️\n\t*✯────────────────────✯*\n@" + _0x8c602e.sender.split("@")[0] + "  x  @" + _0x7fa6d0.split("@")[0] + "\n\t*✯────────────────────✯*\n\n" + (await _0x30a2ec()) + "\n\n" + Config.caption, {
      contextInfo: _0x1a1a8e,
      mentions: [_0x7fa6d0]
-   }, "QUEEN_ANITA-V2");
+   }, "asta");
  });
  smd({
    pattern: "mute",
