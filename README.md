@@ -95,9 +95,9 @@
 
 * [🧑‍💻 Follow Queen_Anita-V2 Whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z)
 
-* [🧑‍💻 Join Queen_Anita-V2 Group 🧑‍💻](https://t.me/hacktivisthive)
+* [🧑‍💻 Join Queen_Anita-V2 Telegram Group 🧑‍💻](https://t.me/dctech)
 
-* [✅ Join Public Group ⚡](https://chat.whatsapp.com/Hk4jZg8HMoH1auW2NAKazX)
+* [✅ Join Public Group ⚡](https://chat.whatsapp.com/KLu7a2r4bc4JFV8s5epvsF)
 
   <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
   
@@ -116,12 +116,13 @@
 
 <a href="https://github.com/astrofx0011"><img src="https://github.com/astrofx0011.png?size=100" width="130" height="100"></a> | [<img src="https://github.com/Itxxwasi.png?size=100" width="100" height="100">](https://github.com/Itxxwasi) 
 ---|---
-[Astrofx](https://github.com/astrofx0011)  | [Wasi](https://github.com/itxxwasi)
-Plugins | Bug Fixer & Help |
+  [Wasi](https://github.com/itxxwasi)
+ Help 
+ 
 
 ## Support
 
-SUPPORT CHANNEL: <a href="[https://whatsapp.com/channel/0029VafEBFXhttps://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L)"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+SUPPORT CHANNEL: <a href= "(https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L)"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
 ### Please Give One Star ✨ & [follow me notify my updates 💗](https://github.com/DeeCeeXxx)
