@@ -117,8 +117,7 @@
 
 </a> | [<img src="https://github.com/Itxxwasi.png?size=100" width="100" height="100">](https://github.com/Itxxwasi) 
 ---|---
-  [Wasi](https://github.com/itxxwasi)
- Help 
+  [Wasi](https://github.com/itxxwasi) Help 
  
 
 ## Support
