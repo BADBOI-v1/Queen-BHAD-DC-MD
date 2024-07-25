@@ -112,13 +112,7 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
-## HELPERS
-
-
-</a> | [<img src="https://github.com/Itxxwasi.png?size=100" width="100" height="100">](https://github.com/Itxxwasi) 
----|---
-  [Wasi](https://github.com/itxxwasi) Help 
- 
+## HELPERS = WASI
 
 ## Support
 
