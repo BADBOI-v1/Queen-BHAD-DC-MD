@@ -1,5 +1,5 @@
 {
-    "name": "Queen_Anita-V2",
+    "name": "𝐒 𝐓 𝐄 E 𝐕 𝐄 ☯︎",
     "description": "Simple WhatsApp Bot",
     "logo": "https://i.imgur.com/H4qeXwa.jpeg",
     "keywords": ["DeeCeeXxx", "Anita-V2", "Queen_Anita"],
@@ -9,14 +9,14 @@
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Queen_Anita-V2",
+        "value": "𝐒 𝐓 𝐄 E 𝐕 𝐄 ☯︎",
         "required": true
       },
   
       "WELCOME": {
         "description": "put 'false' or 'true' to enable & disable WELCOME ",
-        "value": "false",
-        "required": false
+        "value": "true",
+        "required": true
       },
       "USER_IMAGES": {
         "description": "Menu Images",
@@ -26,12 +26,12 @@
   
       "GOODBYE": {
         "description": "put 'false' or 'true' to enable & disable GOODBYE ",
-        "value": "false",
-        "required": false
+        "value": "true",
+        "required": true
       },
       "MENU": {
         "description": "choose 1, 2, 3",
-        "value": "1"
+        "value": "3"
       },
       "THUMB_IMAGE": {
         "description": "Thumbnail",
@@ -39,8 +39,8 @@
       },
       "BOT_NAME": {
         "description": " NAME FOR BOT",
-        "required": false,
-        "value": "Queen_Anita-V2"
+        "required": true,
+        "value": "𝐒 𝐓 𝐄 E 𝐕 𝐄 ☯︎"
       },
       "TZ": {
         "description": "Put TIME_ZONE according to your location",
@@ -49,8 +49,8 @@
       },
       "READ_COMMAND": {
         "description": " Read bot cmds",
-        "required": false,
-        "value": "false"
+        "required": true,
+        "value": "true"
       },
       "WARN_COUNT": {
         "description": " Warn count for users to kick/block when warn limit exceed!",
@@ -64,22 +64,22 @@
       },
       "HEROKU_API_KEY": {
         "description": "Put Your Heroku Api Key Here",
-        "value": "",
+        "value": "HRKU-2a4cfbea-5c58-41db-b04f-622fb62a5157",
         "required": true
       },
       "HEROKU_APP_NAME": {
         "description": "Put Your Heroku App Name Here",
-        "value": "",
+        "value": "𝐒 𝐓 𝐄 E 𝐕 𝐄 ☯︎",
         "required": true
       },
       "WAPRESENCE": {
         "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
         "required": false,
-        "value": "unavailable"
+        "value": "composing"
       },
       "AUTO_READ_STATUS": {
         "description": "Fill the value true if you want bot view your Statuses.",
-        "required": false,
+        "required": true,
         "value": "true"
       },
       "MSGS_IN_LOG": {
@@ -103,15 +103,15 @@
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "2349066528353"
+        "value": "50937042801"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
-        "value": ""
+        "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR0lzRGlDWHEzNEZ4UTI1V1A3RGNhaGRmSWVuUlduSjBKRElvQ283MDJFbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNXFDLzBDUjJ2SW8vVGVLRnhOeXYrc1JGTmRuSmFEaS9nQllndjdINWZ3MD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJjUFNSVk1VT01qb0VQUDl5a1VYQmhqTEdXR2xyY0FRQ2tWTmY3R0RxM1hnPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI4VDN6V1REVnJKbWFXRUk0dHQvS0VsZWhORnlIS0lHNm9XU2NvRmoxQmxvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImdNd0lOSFNVSlFqeGdyQ1lWRlhHSy9NZjdUZC9ZaG5SQVhiTmVWUDV6a0U9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InovMWJrNTBkckJQQTR1UW5EZkNnbnpHdTFXSi9QdE9yQW44R1RsVTFMRjA9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU0RocXcwcGJ2ZWVvSWZBYVFVdWZTazFPaTU2OTFwNkp0a2dJdk9SM1oxaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUkJXY2phN01lRlplNFRSd3ByT05JZWlFa2h2bFhSSnk4MU4ya0ljbWJDTT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlBWemMybXYxT05EL2ZLZFZVL3pGbm15aFVyc1A5SjRCeWc4d3lJaFAyL1QzbThsYStESklkZXIwVEd6VDcwdDJ6VnIxMkptOG5oZkVpS004ajRyUWdBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTkyLCJhZHZTZWNyZXRLZXkiOiJMZVRaMkJFa0IrVk1mSFpud0F1U3BqNlh0MVlMZkhDN1F6WXcwM0hpeUhrPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJwS1lXUXYwZVF3aU12X1h4aXVncEtnIiwicGhvbmVJZCI6IjBjZjdjZGU4LWY0MGUtNDdlYy1hNDJiLWM3YjNlOTUyYTA5NiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJEdTc1YnVQcTBWSmcwTElSNUVzR3Jtdi80anM9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNkFDaTE5dFJnM1JBeHhLd01DUlRFWDFpUzg4PSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkczV1Y1UjhQIiwibWUiOnsiaWQiOiI1MDkzNzA0MjgwMTo0NkBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDS3V5dGFVSEVJV0trTFVHR0FNZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoibC9CZVltbytEYTRLUUhPZzNsakN0aXZCRjZMM3VmYlhQZXNqMlkvYmpSRT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiL3VSc2RsclFRbzhiUngvZmM1ajA2eHUwUEpDUkVWRjd4d3lHUndXaXJ2a292QlhWNWZQSnpDZjZxcS9TcWVRNlNNQ0xta3Z3WmYwb2s1VVpMMFhwRFE9PSIsImRldmljZVNpZ25hdHVyZSI6ImJXZURaUTJTZ0pqQ2VXd25BaGlQRkxNeTJZR0NQSmNPanpkRDlaSzJpVmxGMUVnSVRpa1VnMVBIdUlGaVBnRkREdDNJb05FZDVRNkdla1FocElJRWd3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiNTA5MzcwNDI4MDE6NDZAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCWmZ3WG1KcVBnMnVDa0J6b041WXdyWXJ3UmVpOTduMjF6M3JJOW1QMjQwUiJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyMjAyNTIzM30="
       },
       "MODE": {
         "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-        "value": "public"
+        "value": "private"
       },
       "PACK_NAME": {
         "description": "Put Sticker Pack_Name.",
