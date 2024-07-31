@@ -1,19 +1,19 @@
 {
-   "name": "Queen_Anita-V2",
+   "name": "Queen_BHAD-DC",
    "version": "2.5.0",
    "description": "Multi device whatsapp bot by DeeCeeXxx.",
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
-      "run": "pm2 start . --deep-monitoring --attach --name Queen_Anita-V2 || node .",
-      "asta": "pm2 start . --deep-monitoring --attach --name Queen_Anita-V2 || node .",
+      "run": "pm2 start . --deep-monitoring --attach --name Queen_BHAD-DC || node .",
+      "asta": "pm2 start . --deep-monitoring --attach --name Queen_BHAD-DC || node .",
       "start": "pm2 start . --attach --name Queen_Anita-V2",
       "stop": "pm2 stop Queen_Anita-V2",
-      "heroku-postbuild": "git clone https://github.com/DeeCeeXxx/Queen_Anita-V2 temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/DeeCeeXxx/Queen_Anita-V2.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "heroku-postbuild": "git clone https://github.com/BADBOI-v1/Queen-BHAD-DC-MD temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "git clone https://github.com/BADBOI-v1/Queen-BHAD-DC-MD.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
-   "author": "David Cyril",
+   "author": "BADBOI HACKER",
    "license": "Apache-2.0",
    "dependencies": {
       "@distube/ytdl-core": "^4.13.5",
@@ -79,10 +79,10 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/DeeCeeXxx/Queen_Anita-V2.git"
+      "url": "git+https://github.com/BADBOI-v1/Queen-BHAD-DC-MD.git"
    },
    "bugs": {
-      "url": "https://github.com/DeeCeeXxx/Queen_Anita-V2/issues"
+      "url": "https://github.com/BADBOI-v1/Queen-BHAD-DC-MD/issues"
    },
-   "homepage": "https://github.com/DeeCeeXxx/Queen_Anita-V2#readme"
+   "homepage": "https://github.com/BADBOI-v1/Queen-BHAD-DC-MD#readme"
 }
