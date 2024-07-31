@@ -46,12 +46,12 @@ try {
         let commits = await DB.syncgit();
         if (commits.total === 0)
           return await citel.reply(
-            `*QUEEN_ANITA-V2 IS RUNNING ON LATEST\nPATCHES\nFIXES\UPGRADES*`
+            `*QUEEN_BHAD-DC IS RUNNING ON LATEST\nPATCHES\nFIXES\UPGRADES*`
           );
         let update = await DB.sync();
         await citel.bot.sendMessage(
           citel.chat,
-          { text: update.replace(/SuhailTechIMd/, " David Cyril") },
+          { text: update.replace(/SuhailTechIMd/, "BADBOI HACKER") },
           { quoted: citel }
         );
         if (
