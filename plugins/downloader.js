@@ -1066,7 +1066,7 @@ smd(
      const _0x4ac8f2 = await search(_0x1cb962);
      if (_0x4ac8f2.length) {
        let _0x3d85b = await download(_0x4ac8f2[0].id);
-       let _0x307e6f = "*QUEEN_ANITA-V2 • APK DOWNLOADER* \n*________________________________* \n\n*_Reply Any Number To Download._*\n_Results For : " + _0x1cb962 + "_ \n";
+       let _0x307e6f = "*QUEEN_BHAD-DC • APK DOWNLOADER* \n*________________________________* \n\n*_Reply Any Number To Download._*\n_Results For : " + _0x1cb962 + "_ \n";
        for (let _0x5a5920 = 0; _0x5a5920 < _0x4ac8f2.length; _0x5a5920++) {
          _0x307e6f += "\n*" + (_0x5a5920 + 1) + " : " + _0x4ac8f2[_0x5a5920].name + "* \n*Id : " + _0x4ac8f2[_0x5a5920].id + "* \n";
        }
@@ -1197,7 +1197,7 @@ smd(
    desc: "text to speech.",
    category: "downloader",
    filename: __filename,
-   use: "<Hii,this is QUEEN_ANITA-V2>"
+   use: "<Hii,this is QUEEN_BHAD-DC>"
  }, async (_0x55aba2, _0x56da6b) => {
    try {
      let _0x204f81 = _0x55aba2.reply_text ? _0x55aba2.reply_text : _0x56da6b;
@@ -1217,7 +1217,7 @@ smd(
          },
          mimetype: "audio/mpeg",
          ptt: true,
-         fileName: "QUEEN_ANITA-V2-tts.m4a"
+         fileName: "QUEEN_BHADC-DC-tts.m4a"
        }, {
          quoted: _0x55aba2
        });
@@ -1233,7 +1233,7 @@ smd(
          },
          mimetype: "audio/mpeg",
          ptt: true,
-         fileName: "QUEEN_ANITA-V2-tts.m4a"
+         fileName: "QUEEN_BHAD-DC-tts.m4a"
        }, {
          quoted: _0x55aba2
        });
@@ -1644,7 +1644,7 @@ smd(
          return m.reply("*_Could not find the file!_*");
        }
  
-       const caption = `『 *QUEEN_ANITA-V2 • MEDIAFIRE DOWNLOADER* 』\n\n *Name* : ${result.name}\n *Size* : ${result.size}\n *Mime* : ${result.mime}\n\n\n${Config.caption}`;
+       const caption = `『 *QUEEN_BADBAD-DC • MEDIAFIRE DOWNLOADER* 』\n\n *Name* : ${result.name}\n *Size* : ${result.size}\n *Mime* : ${result.mime}\n\n\n${Config.caption}`;
        const fancyCaption = await fancytext(caption, 25);
        const contextInfo = {
          ...(await m.bot.contextInfo(Config.botname, "MEDIAFIRE")),
