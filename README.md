@@ -2,11 +2,11 @@
    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ QUEEN_+♡ƁӇƛƊ ƊƇᴸᴼᴿᴰ+MD★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+BADBOI+HACKER;RELEASED+DATE+22%2F6%2F2024." alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ QUEEN_+♡ƁӇƛƊ ƊƇᴸᴼᴿᴰ+MD★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+BADBOI+HACKER;RELEASED+DATE+1%2F9%2F2024." alt="Typing SVG" /></a>
  </p>
 <p align="center">
 <img src="https://telegra.ph/file/53353f917aa29807b8a64.jpg"/> 
-<p align="center"><img src="https://profile-counter.glitch.me/{DeeCeeXxx}/count.svg" alt="DeeCeeXxx :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{BADBOI-1}/count.svg" alt="BADBOI-v1 :: Visitor's Count" /></p>
 <p align="center">
 <a href="https://github.com/BADBOI-v1/followers"><img title="Followers" src="https://img.shields.io/github/followers/BADBOI-v1?color=red&style=flat-square"></a>
 <a href="https://github.com/BADBOI-v1/Queen-BHAD-DC-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/BADBOI-v1/Queen-BHAD-DC-MD?color=blue&style=flat-square"></a>
