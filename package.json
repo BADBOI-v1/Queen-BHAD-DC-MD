@@ -7,7 +7,7 @@
    "scripts": {
       "run": "pm2 start . --deep-monitoring --attach --name Queen_BHAD-DC || node .",
       "asta": "pm2 start . --deep-monitoring --attach --name Queen_BHAD-DC || node .",
-      "start": "pm2 start . --attach --name Queen_Anita-V2",
+      "start": "pm2 start . --attach --name Queen_BHAD-DC",
       "stop": "pm2 stop Queen_Anita-V2",
       "heroku-postbuild": "git clone https://github.com/BADBOI-v1/Queen-BHAD-DC-MD temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
       "fis-heroku-postbuild": "git clone https://github.com/BADBOI-v1/Queen-BHAD-DC-MD.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
