@@ -66,9 +66,72 @@
     <br>
     <a href='https://railway.com/BADBOI-v1/Queen-BHAD-DC-MD' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/-Deploy-green?style=for-the-badge&logo=railway&logoColor=white'/></a>
     
-
     <h2 align="center"> ⚠️ NOTE  </h2>
 ## QUEEN_♡ƁӇƛƊ ƊƇᴸᴼᴿᴰ-MD SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
+
+****ENV FOR RENDE AND kOYEB DEPLOYMENT ** **
+
+_key_
+
+```
+SESSION_ID
+```
+_value_
+
+```
+put your session I'd there
+```
+_key_
+
+```
+OWNER_NUMBER
+```
+_value_
+
+```
+2348140825959
+```
+_key_
+
+```
+MODE
+```
+_value_
+
+```
+public or private
+```
+_key_
+
+```
+AUTO_READ_STATUS
+```
+_value_
+
+```
+true
+```
+_key_
+
+```
+BOT_NAME
+```
+_value_
+
+```
+put any name of ur choice
+```
+_key_
+
+```
+WAPRESENCE
+```
+_value_
+
+```
+ ( Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused') 
+> Default is available
+```
 
 ## ```Connect With Me```<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
  <br> 
