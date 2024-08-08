@@ -31,7 +31,7 @@
 
 ### SERVER 1
  
-<a href="https://queen-bhaddc-paring-generator-b1673680961c.herokuapp.com"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
+<a href="https://all-bot-paring-generator-by-badboi-hacker.onrender.com"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
 
 
 ### **PLEASE PICK RANDOMLY DON'T SPAM A PARTICULAR SERVER**
