@@ -65,31 +65,6 @@
 1. Deploy.
     <br>
     <a href='https://railway.com/BADBOI-v1/Queen-BHAD-DC-MD' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/-Deploy-green?style=for-the-badge&logo=railway&logoColor=white'/></a>
-
-Variables & values for deploying Queen_BHAD-DC
-
-`VARIABLE:` SESSION_ID 
-`value` : (put your session I'd there) 
-
-`VARIABLE:` OWNER_NUMBER 
-`value` : (Fill the value with your WhatsApp number there) 
-> Default is my number 😁
-
-`VARIABLE:` MODE 
-`value` : ( put public or private) 
-> Default is public
-
-`VARIABLE:` AUTO_READ_STATUS 
-`value` : ( put true or false ) 
-> Default is true
-
-`VARIABLE:` BOT_NAME 
-`value` : ( Fill the value with any name you want for your bot ) 
-> Default is QUEEN_BHAD-DC
-
-`VARIABLE:` WAPRESENCE 
-`value` : ( Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused') 
-> Default is available
     
 
     <h2 align="center"> ⚠️ NOTE  </h2>
