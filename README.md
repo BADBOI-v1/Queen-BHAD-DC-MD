@@ -172,5 +172,8 @@ SUPPORT CHANNEL: <a href= "(https://whatsapp.com/channel/0029VadCyFZGufJ2YW4bG42
 ### Please Give One Star ✨ & [follow me notify my updates 💗](https://github.com/BADBOI-v1)
 <b>Version -> 2.0.0</b>
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-  
+
+-------
+## ```YOUTUBE CHANNEL FOR TUTORIALS```
+
+ - [ Click ](https://youtube.com/@BADBOI-k2i?si=1_Ae2h9Kl9IbAo7E)
