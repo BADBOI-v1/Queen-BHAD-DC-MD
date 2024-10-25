@@ -40,9 +40,9 @@ global.read_status_from = process.env.READ_STATUS_FROM || "";
 global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://secret-garden-43998-4daad95d4561.herokuapp.com/";
 
-global.SESSION_ID =
+global.SESSION_ID =7921269522
   process.env.SESSION_ID ||
-  ""
+  "8045346471:AAHPwxDKd6RERek723Z3KArldpRHHhue5B0"
 module.exports = {
   menu: process.env.MENU || "2",
   HANDLERS: process.env.PREFIX || ".",
